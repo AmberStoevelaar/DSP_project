@@ -1,0 +1,832 @@
+MERGE (n:FACT {name: 'ENGLISH'}) SET n.id = 'ENGLISH_FACT'
+MERGE (n:ACTOR {name: 'APPLE INC.'}) SET n.id = 'APPLE_INC._ACTOR'
+MERGE (n:ACTOR {name: 'macOS Sequoia'}) SET n.id = 'macOS_Sequoia_ACTOR'
+MERGE (n:ACTOR {name: 'Apple'}) SET n.id = 'Apple_ACTOR'
+MERGE (n:ACT {name: 'DISAGREE'}) SET n.id = 'DISAGREE_ACT'
+MERGE (n:ACTOR {name: 'APPLE'}) SET n.id = 'APPLE_ACTOR'
+MERGE (n:ACTOR {name: 'THE ENTIRE HARDWARE/SOFTWARE PACKAGE IN'}) SET n.id = 'THE_ENTIRE_HARDWARE/SOFTWARE_PACKAGE_IN_ACTOR'
+MERGE (n:ACTOR {name: 'Boot ROM'}) SET n.id = 'Boot_ROM_ACTOR'
+MERGE (n:ACTOR {name: 'the Original 
+Apple Software'}) SET n.id = 'the_Original_
+Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Software Changes'}) SET n.id = 'Apple_Software_Changes_ACTOR'
+MERGE (n:ACTOR {name: 'the “Apple Software'}) SET n.id = 'the_“Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Inc.'}) SET n.id = 'Apple_Inc._ACTOR'
+MERGE (n:ACTOR {name: 'License'}) SET n.id = 'License_ACTOR'
+MERGE (n:ACTOR {name: 'the Apple Software'}) SET n.id = 'the_Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'B. Apple'}) SET n.id = 'B._Apple_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Software 
+Changes'}) SET n.id = 'Apple_Software_
+Changes_ACTOR'
+MERGE (n:ACTOR {name: 'C. Title'}) SET n.id = 'C._Title_ACTOR'
+MERGE (n:ACT {name: 'Mac App Store'}) SET n.id = 'Mac_App_Store_ACT'
+MERGE (n:ACTOR {name: 'B. Mac App Store License'}) SET n.id = 'B._Mac_App_Store_License_ACTOR'
+MERGE (n:ACTOR {name: 'the Services and Content Usage Rules'}) SET n.id = 'the_Services_and_Content_Usage_Rules_ACTOR'
+MERGE (n:ACTOR {name: 'the Apple Media Services'}) SET n.id = 'the_Apple_Media_Services_ACTOR'
+MERGE (n:ACTOR {name: 'the Apple 
+Software'}) SET n.id = 'the_Apple_
+Software_ACTOR'
+MERGE (n:FACT {name: 'Sonoma'}) SET n.id = 'Sonoma_FACT'
+MERGE (n:FACT {name: 'Ventura'}) SET n.id = 'Ventura_FACT'
+MERGE (n:ACTOR {name: 'macOS Monterey'}) SET n.id = 'macOS_Monterey_ACTOR'
+MERGE (n:ACTOR {name: 'macOS Mojave'}) SET n.id = 'macOS_Mojave_ACTOR'
+MERGE (n:ACTOR {name: 'macOS High Sierra'}) SET n.id = 'macOS_High_Sierra_ACTOR'
+MERGE (n:ACT {name: 'Mac Computer'}) SET n.id = 'Mac_Computer_ACT'
+MERGE (n:ACTOR {name: 'Mac'}) SET n.id = 'Mac_ACTOR'
+MERGE (n:ACTOR {name: 'Mac 
+Computer'}) SET n.id = 'Mac_
+Computer_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Software'}) SET n.id = 'Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Mac Computer'}) SET n.id = 'Mac_Computer_ACTOR'
+MERGE (n:SECTION {name: 'Section 3'}) SET n.id = 'Section_3_SECTION'
+MERGE (n:SECTION {name: 'Section 2B(iii'}) SET n.id = 'Section_2B(iii_SECTION'
+MERGE (n:SECTION {name: 'Section 2B'}) SET n.id = 'Section_2B_SECTION'
+MERGE (n:ACTOR {name: 'C. Volume'}) SET n.id = 'C._Volume_ACTOR'
+MERGE (n:ACTOR {name: 'Maintenance License'}) SET n.id = 'Maintenance_License_ACTOR'
+MERGE (n:ACTOR {name: 'D. System Requirements'}) SET n.id = 'D._System_Requirements_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Account'}) SET n.id = 'Apple_Account_ACTOR'
+MERGE (n:ACTOR {name: 'E. Fonts'}) SET n.id = 'E._Fonts_ACTOR'
+MERGE (n:ACTOR {name: 'the 
+Apple Software'}) SET n.id = 'the_
+Apple_Software_ACTOR'
+MERGE (n:EVENT {name: 'the Font Book/Preview/Show Font Info'}) SET n.id = 'the_Font_Book/Preview/Show_Font_Info_EVENT'
+MERGE (n:ACTOR {name: 'F. Voices'}) SET n.id = 'F._Voices_ACTOR'
+MERGE (n:ACTOR {name: 'Live Captions'}) SET n.id = 'Live_Captions_ACTOR'
+MERGE (n:ACT {name: 'System Voices'}) SET n.id = 'System_Voices_ACT'
+MERGE (n:ACTOR {name: 'the Live 
+Captions'}) SET n.id = 'the_Live_
+Captions_ACTOR'
+MERGE (n:FACT {name: 'FaceTime'}) SET n.id = 'FaceTime_FACT'
+MERGE (n:ACTOR {name: 'Personal Voice'}) SET n.id = 'Personal_Voice_ACTOR'
+MERGE (n:FACT {name: 'System Voices'}) SET n.id = 'System_Voices_FACT'
+MERGE (n:ACTOR {name: 'the System 
+Voices, Live Captions or'}) SET n.id = 'the_System_
+Voices,_Live_Captions_or_ACTOR'
+MERGE (n:FACT {name: 'non-proﬁt'}) SET n.id = 'non-proﬁt_FACT'
+MERGE (n:ACTOR {name: 'G. Photos App Features and Support'}) SET n.id = 'G._Photos_App_Features_and_Support_ACTOR'
+MERGE (n:ACT {name: 'Photos App'}) SET n.id = 'Photos_App_ACT'
+MERGE (n:ACTOR {name: 'Digital Materials”'}) SET n.id = 'Digital_Materials”_ACTOR'
+MERGE (n:ACTOR {name: 'Digital Materials'}) SET n.id = 'Digital_Materials_ACTOR'
+MERGE (n:ACTOR {name: 'H. Content Caching Features'}) SET n.id = 'H._Content_Caching_Features_ACTOR'
+MERGE (n:DUTY {name: 'the Mac App Store'}) SET n.id = 'the_Mac_App_Store_DUTY'
+MERGE (n:ACTOR {name: 'Apple Eligible Content'}) SET n.id = 'Apple_Eligible_Content_ACTOR'
+MERGE (n:DUTY {name: 'the Content Caching Features of'}) SET n.id = 'the_Content_Caching_Features_of_DUTY'
+MERGE (n:ACTOR {name: 'Caching Enabled Mac'}) SET n.id = 'Caching_Enabled_Mac_ACTOR'
+MERGE (n:DUTY {name: 'the Content Caching Features of the Apple Software'}) SET n.id = 'the_Content_Caching_Features_of_the_Apple_Software_DUTY'
+MERGE (n:DUTY {name: 'The Content Caching Features of'}) SET n.id = 'The_Content_Caching_Features_of_DUTY'
+MERGE (n:ACTOR {name: 'the Apple Eligible Content'}) SET n.id = 'the_Apple_Eligible_Content_ACTOR'
+MERGE (n:DUTY {name: 'the Apple Media Services Terms and Conditions'}) SET n.id = 'the_Apple_Media_Services_Terms_and_Conditions_DUTY'
+MERGE (n:DUTY {name: 'the iCloud Terms and Conditions'}) SET n.id = 'the_iCloud_Terms_and_Conditions_DUTY'
+MERGE (n:DUTY {name: 'the iTunes U Software License Agreement'}) SET n.id = 'the_iTunes_U_Software_License_Agreement_DUTY'
+MERGE (n:DUTY {name: 'Apple Software License Agreements'}) SET n.id = 'Apple_Software_License_Agreements_DUTY'
+MERGE (n:FACT {name: 'https://www.apple.com/legal/sla/.'}) SET n.id = 'https://www.apple.com/legal/sla/._FACT'
+MERGE (n:DUTY {name: 'the Content Caching Features'}) SET n.id = 'the_Content_Caching_Features_DUTY'
+MERGE (n:ACTOR {name: 'Apple Eligible 
+Content'}) SET n.id = 'Apple_Eligible_
+Content_ACTOR'
+MERGE (n:ACTOR {name: 'IP'}) SET n.id = 'IP_ACTOR'
+MERGE (n:ACTOR {name: 'Caching 
+Enabled Mac'}) SET n.id = 'Caching_
+Enabled_Mac_ACTOR'
+MERGE (n:ACTOR {name: 'Caching Enabled 
+Macs'}) SET n.id = 'Caching_Enabled_
+Macs_ACTOR'
+MERGE (n:ACTOR {name: 'I. Remote Desktop Connections'}) SET n.id = 'I._Remote_Desktop_Connections_ACTOR'
+MERGE (n:ACTOR {name: 'the “Home Mac'}) SET n.id = 'the_“Home_Mac_ACTOR'
+MERGE (n:ACTOR {name: 'the Home Mac'}) SET n.id = 'the_Home_Mac_ACTOR'
+MERGE (n:ACTOR {name: 'Apple 
+Software'}) SET n.id = 'Apple_
+Software_ACTOR'
+MERGE (n:SECTION {name: 'Section 2I'}) SET n.id = 'Section_2I_SECTION'
+MERGE (n:ACTOR {name: 'J. Other Use Restrictions'}) SET n.id = 'J._Other_Use_Restrictions_ACTOR'
+MERGE (n:ACTOR {name: 'non-Apple'}) SET n.id = 'non-Apple_ACTOR'
+MERGE (n:ACTOR {name: 'K. Backup Copy'}) SET n.id = 'K._Backup_Copy_ACTOR'
+MERGE (n:DATE {name: 'machine-'}) SET n.id = 'machine-_DATE'
+MERGE (n:ACTOR {name: 'Apple Boot ROM'}) SET n.id = 'Apple_Boot_ROM_ACTOR'
+MERGE (n:ACTOR {name: 'L. Migration of Existing Software'}) SET n.id = 'L._Migration_of_Existing_Software_ACTOR'
+MERGE (n:ACTOR {name: 'this Apple Software'}) SET n.id = 'this_Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'M. Open Source'}) SET n.id = 'M._Open_Source_ACTOR'
+MERGE (n:ACT {name: 'Open Source'}) SET n.id = 'Open_Source_ACT'
+MERGE (n:EVENT {name: 'the “Open-Sourced Components'}) SET n.id = 'the_“Open-Sourced_Components_EVENT'
+MERGE (n:ACTOR {name: 'these Open-Sourced Components'}) SET n.id = 'these_Open-Sourced_Components_ACTOR'
+MERGE (n:ACTOR {name: 'the Open-Sourced Components'}) SET n.id = 'the_Open-Sourced_Components_ACTOR'
+MERGE (n:ACTOR {name: 'N. No Reverse Engineering'}) SET n.id = 'N._No_Reverse_Engineering_ACTOR'
+MERGE (n:ACTOR {name: 'the Usage Rules'}) SET n.id = 'the_Usage_Rules_ACTOR'
+MERGE (n:ACTOR {name: 'Open-Sourced Components'}) SET n.id = 'Open-Sourced_Components_ACTOR'
+MERGE (n:ACTOR {name: 'the Apple Software and Services'}) SET n.id = 'the_Apple_Software_and_Services_ACTOR'
+MERGE (n:ACTOR {name: 'P. Third Party Software'}) SET n.id = 'P._Third_Party_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Q. Apple Software Changes'}) SET n.id = 'Q._Apple_Software_Changes_ACTOR'
+MERGE (n:ACTOR {name: 'The Apple Software'}) SET n.id = 'The_Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Apple for Apple Software 
+Changes'}) SET n.id = 'Apple_for_Apple_Software_
+Changes_ACTOR'
+MERGE (n:ACTOR {name: 'Rapid Security'}) SET n.id = 'Rapid_Security_ACTOR'
+MERGE (n:ACTOR {name: 'System Settings > Software Update'}) SET n.id = 'System_Settings_>_Software_Update_ACTOR'
+MERGE (n:ACTOR {name: 'Memoji'}) SET n.id = 'Memoji_ACTOR'
+MERGE (n:ACT {name: 'System Characters'}) SET n.id = 'System_Characters_ACT'
+MERGE (n:ACT {name: 'Lessee'}) SET n.id = 'Lessee_ACT'
+MERGE (n:ACTOR {name: 'Permitted 
+Developer Services'}) SET n.id = 'Permitted_
+Developer_Services_ACTOR'
+MERGE (n:ACTOR {name: 'Lessee'}) SET n.id = 'Lessee_ACTOR'
+MERGE (n:FACT {name: '24) consecutive hours'}) SET n.id = '24)_consecutive_hours_FACT'
+MERGE (n:ACT {name: 'Lessor'}) SET n.id = 'Lessor_ACT'
+MERGE (n:ACTOR {name: 'Xcode'}) SET n.id = 'Xcode_ACTOR'
+MERGE (n:ACTOR {name: 'Permitted Developer Services'}) SET n.id = 'Permitted_Developer_Services_ACTOR'
+MERGE (n:ACTOR {name: 'B. Subleasing'}) SET n.id = 'B._Subleasing_ACTOR'
+MERGE (n:ACTOR {name: 'C. Enforcement'}) SET n.id = 'C._Enforcement_ACTOR'
+MERGE (n:ACTOR {name: 'E. System Conﬁguration'}) SET n.id = 'E._System_Conﬁguration_ACTOR'
+MERGE (n:ACTOR {name: 'Lessor'}) SET n.id = 'Lessor_ACTOR'
+MERGE (n:ACTOR {name: 'Location Services'}) SET n.id = 'Location_Services_ACTOR'
+MERGE (n:SECTION {name: 'Section 2M'}) SET n.id = 'Section_2M_SECTION'
+MERGE (n:ACTOR {name: 'D. Apple'}) SET n.id = 'D._Apple_ACTOR'
+MERGE (n:ACTOR {name: 'Privacy Policy'}) SET n.id = 'Privacy_Policy_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Software, Services'}) SET n.id = 'Apple_Software,_Services_ACTOR'
+MERGE (n:ACTOR {name: 'Third Party Materials'}) SET n.id = 'Third_Party_Materials_ACTOR'
+MERGE (n:ACTOR {name: 'iTunes Store'}) SET n.id = 'iTunes_Store_ACTOR'
+MERGE (n:ACTOR {name: 'Apple 
+Books, Game Center'}) SET n.id = 'Apple_
+Books,_Game_Center_ACTOR'
+MERGE (n:ACTOR {name: 'iCloud'}) SET n.id = 'iCloud_ACTOR'
+MERGE (n:ACTOR {name: 'an Apple Account'}) SET n.id = 'an_Apple_Account_ACTOR'
+MERGE (n:ACTOR {name: 'Apple 
+Services'}) SET n.id = 'Apple_
+Services_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Media Services'}) SET n.id = 'Apple_Media_Services_ACTOR'
+MERGE (n:FACT {name: 'https://www.apple.com/legal/internet-services/itunes/.'}) SET n.id = 'https://www.apple.com/legal/internet-services/itunes/._FACT'
+MERGE (n:ACT {name: 'Shared Albums'}) SET n.id = 'Shared_Albums_ACT'
+MERGE (n:ACT {name: 'Find My'}) SET n.id = 'Find_My_ACT'
+MERGE (n:ACTOR {name: 'F. Certain Apple Software and Services'}) SET n.id = 'F._Certain_Apple_Software_and_Services_ACTOR'
+MERGE (n:ACTOR {name: 'Party Materials'}) SET n.id = 'Party_Materials_ACTOR'
+MERGE (n:ACTOR {name: 'party Services'}) SET n.id = 'party_Services_ACTOR'
+MERGE (n:ACTOR {name: 'G. Neither Apple'}) SET n.id = 'G._Neither_Apple_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Software and Services'}) SET n.id = 'Apple_Software_and_Services_ACTOR'
+MERGE (n:ACTOR {name: 'the Apple 
+Software and Services'}) SET n.id = 'the_Apple_
+Software_and_Services_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Maps'}) SET n.id = 'Apple_Maps_ACTOR'
+MERGE (n:ACTOR {name: 'Maps'}) SET n.id = 'Maps_ACTOR'
+MERGE (n:ACTOR {name: 'I. Certain Apple Software, Services'}) SET n.id = 'I._Certain_Apple_Software,_Services_ACTOR'
+MERGE (n:DATE {name: '6'}) SET n.id = '6_DATE'
+MERGE (n:DATE {name: '7'}) SET n.id = '7_DATE'
+MERGE (n:DATE {name: '8'}) SET n.id = '8_DATE'
+MERGE (n:DATE {name: '9'}) SET n.id = '9_DATE'
+MERGE (n:DATE {name: '11'}) SET n.id = '11_DATE'
+MERGE (n:DATE {name: '12'}) SET n.id = '12_DATE'
+MERGE (n:FACT {name: 'Australia'}) SET n.id = 'Australia_FACT'
+MERGE (n:ACTOR {name: 'THE APPLE SOFTWARE'}) SET n.id = 'THE_APPLE_SOFTWARE_ACTOR'
+MERGE (n:ACTOR {name: 'THE APPLE SOFTWARE AND SERVICES'}) SET n.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_ACTOR'
+MERGE (n:ACTOR {name: 'IMPLIED'}) SET n.id = 'IMPLIED_ACTOR'
+MERGE (n:EVENT {name: 'OPERATION'}) SET n.id = 'OPERATION_EVENT'
+MERGE (n:ACTOR {name: 'THE APPLE SOFTWARE OR'}) SET n.id = 'THE_APPLE_SOFTWARE_OR_ACTOR'
+MERGE (n:ACTOR {name: 'APPLICATIONS'}) SET n.id = 'APPLICATIONS_ACTOR'
+MERGE (n:ACTOR {name: 'USABILITY OF THIRD PARTY SOFTWARE'}) SET n.id = 'USABILITY_OF_THIRD_PARTY_SOFTWARE_ACTOR'
+MERGE (n:ACTOR {name: 'CONTENT'}) SET n.id = 'CONTENT_ACTOR'
+MERGE (n:EVENT {name: 'OPERATION OF NUCLEAR FACILITIES'}) SET n.id = 'OPERATION_OF_NUCLEAR_FACILITIES_EVENT'
+MERGE (n:ACTOR {name: 'APPLE SOFTWARE OR'}) SET n.id = 'APPLE_SOFTWARE_OR_ACTOR'
+MERGE (n:DATE {name: 'MAY'}) SET n.id = 'MAY_DATE'
+MERGE (n:FACT {name: 'JAPAN'}) SET n.id = 'JAPAN_FACT'
+MERGE (n:FACT {name: 'United States'}) SET n.id = 'United_States_FACT'
+MERGE (n:FACT {name: 'U.S.'}) SET n.id = 'U.S._FACT'
+MERGE (n:ACTOR {name: 'the U.S. Treasury Department'}) SET n.id = 'the_U.S._Treasury_Department_ACTOR'
+MERGE (n:ACTOR {name: 'the U.S. Department of Commerce Denied Person’s'}) SET n.id = 'the_U.S._Department_of_Commerce_Denied_Person’s_ACTOR'
+MERGE (n:ACTOR {name: 'C.F.R.'}) SET n.id = 'C.F.R._ACTOR'
+MERGE (n:ACTOR {name: 'Commercial Computer Software'}) SET n.id = 'Commercial_Computer_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Commercial Computer Software Documentation'}) SET n.id = 'Commercial_Computer_Software_Documentation_ACTOR'
+MERGE (n:DATE {name: '227.7202-4'}) SET n.id = '227.7202-4_DATE'
+MERGE (n:ACTOR {name: 'the Commercial Computer Software'}) SET n.id = 'the_Commercial_Computer_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Commercial Computer 
+Software Documentation'}) SET n.id = 'Commercial_Computer_
+Software_Documentation_ACTOR'
+MERGE (n:ACTOR {name: 'U.S. Government'}) SET n.id = 'U.S._Government_ACTOR'
+MERGE (n:FACT {name: 'the United States'}) SET n.id = 'the_United_States_FACT'
+MERGE (n:ACTOR {name: 'Law'}) SET n.id = 'Law_ACTOR'
+MERGE (n:ACTOR {name: 'Severability'}) SET n.id = 'Severability_ACTOR'
+MERGE (n:ACTOR {name: 'the State of California'}) SET n.id = 'the_State_of_California_ACTOR'
+MERGE (n:ACTOR {name: 'the United Nations Convention on Contracts for the International Sale of Goods'}) SET n.id = 'the_United_Nations_Convention_on_Contracts_for_the_International_Sale_of_Goods_ACTOR'
+MERGE (n:FACT {name: 'the United Kingdom'}) SET n.id = 'the_United_Kingdom_FACT'
+MERGE (n:ACT {name: 'Governing Language'}) SET n.id = 'Governing_Language_ACT'
+MERGE (n:FACT {name: 'English'}) SET n.id = 'English_FACT'
+MERGE (n:ACTOR {name: 'A. Portions of the Apple Software'}) SET n.id = 'A._Portions_of_the_Apple_Software_ACTOR'
+MERGE (n:ACTOR {name: 'the Google Safe Browsing Service'}) SET n.id = 'the_Google_Safe_Browsing_Service_ACTOR'
+MERGE (n:DUTY {name: 'the Google Terms of Service'}) SET n.id = 'the_Google_Terms_of_Service_DUTY'
+MERGE (n:ACTOR {name: 'Google'}) SET n.id = 'Google_ACTOR'
+MERGE (n:ACTOR {name: 'GNU'}) SET n.id = 'GNU_ACTOR'
+MERGE (n:ACTOR {name: 'Lesser General Public License'}) SET n.id = 'Lesser_General_Public_License_ACTOR'
+MERGE (n:ACTOR {name: 'LGPL'}) SET n.id = 'LGPL_ACTOR'
+MERGE (n:ACTOR {name: 'WARRANTY'}) SET n.id = 'WARRANTY_ACTOR'
+MERGE (n:ACTOR {name: 'GPL'}) SET n.id = 'GPL_ACTOR'
+MERGE (n:ACTOR {name: 'C. Use of MPEG-4'}) SET n.id = 'C._Use_of_MPEG-4_ACTOR'
+MERGE (n:ACTOR {name: 'the MPEG-4 Systems Patent Portfolio License'}) SET n.id = 'the_MPEG-4_Systems_Patent_Portfolio_License_ACTOR'
+MERGE (n:ACTOR {name: 'the MPEG-4 Systems Standard'}) SET n.id = 'the_MPEG-4_Systems_Standard_ACTOR'
+MERGE (n:ACTOR {name: 'MPEG LA'}) SET n.id = 'MPEG_LA_ACTOR'
+MERGE (n:FACT {name: 'LLC'}) SET n.id = 'LLC_FACT'
+MERGE (n:ACTOR {name: 'the MPEG-4 Visual Patent Portfolio License'}) SET n.id = 'the_MPEG-4_Visual_Patent_Portfolio_License_ACTOR'
+MERGE (n:ACTOR {name: 'the MPEG-4 Visual Standard'}) SET n.id = 'the_MPEG-4_Visual_Standard_ACTOR'
+MERGE (n:ACTOR {name: 'AVC Notice'}) SET n.id = 'AVC_Notice_ACTOR'
+MERGE (n:ACTOR {name: 'AVC'}) SET n.id = 'AVC_ACTOR'
+MERGE (n:ACTOR {name: 'THE AVC STANDARD'}) SET n.id = 'THE_AVC_STANDARD_ACTOR'
+MERGE (n:ACTOR {name: 'MPEG LA 
+L.L.C.'}) SET n.id = 'MPEG_LA_
+L.L.C._ACTOR'
+MERGE (n:FACT {name: 'HTTPS://WWW.MPEGLA.COM'}) SET n.id = 'HTTPS://WWW.MPEGLA.COM_FACT'
+MERGE (n:ACTOR {name: 'E. AMR Notice'}) SET n.id = 'E._AMR_Notice_ACTOR'
+MERGE (n:ACTOR {name: 'AMR'}) SET n.id = 'AMR_ACTOR'
+MERGE (n:FACT {name: 'Windows'}) SET n.id = 'Windows_FACT'
+MERGE (n:ACTOR {name: 'F. FAA Notice'}) SET n.id = 'F._FAA_Notice_ACTOR'
+MERGE (n:ACTOR {name: 'National Airspace System Status Information'}) SET n.id = 'National_Airspace_System_Status_Information_ACTOR'
+MERGE (n:FACT {name: 'Flight Data'}) SET n.id = 'Flight_Data_FACT'
+MERGE (n:ACTOR {name: 'the Federal Aviation 
+Administration'}) SET n.id = 'the_Federal_Aviation_
+Administration_ACTOR'
+MERGE (n:ACTOR {name: 'Flight Data'}) SET n.id = 'Flight_Data_ACTOR'
+MERGE (n:ACTOR {name: 'FAA'}) SET n.id = 'FAA_ACTOR'
+MERGE (n:ACTOR {name: 'the Flight Data'}) SET n.id = 'the_Flight_Data_ACTOR'
+MERGE (n:ACTOR {name: 'G. Use'}) SET n.id = 'G._Use_ACTOR'
+MERGE (n:ACTOR {name: 'Adobe Color Proﬁles'}) SET n.id = 'Adobe_Color_Proﬁles_ACTOR'
+MERGE (n:ACTOR {name: 'Adobe'}) SET n.id = 'Adobe_ACTOR'
+MERGE (n:ACTOR {name: 'the Color 
+Proﬁles'}) SET n.id = 'the_Color_
+Proﬁles_ACTOR'
+MERGE (n:FACT {name: 'Proﬁles'}) SET n.id = 'Proﬁles_FACT'
+MERGE (n:ACTOR {name: 'The Adobe Color Proﬁle'}) SET n.id = 'The_Adobe_Color_Proﬁle_ACTOR'
+MERGE (n:DUTY {name: 'H. Gracenote® End User License Agreement'}) SET n.id = 'H._Gracenote®_End_User_License_Agreement_DUTY'
+MERGE (n:ACTOR {name: 'Gracenote, Inc.'}) SET n.id = 'Gracenote,_Inc._ACTOR'
+MERGE (n:FACT {name: 'Emeryville'}) SET n.id = 'Emeryville_FACT'
+MERGE (n:FACT {name: 'California'}) SET n.id = 'California_FACT'
+MERGE (n:FACT {name: 'Gracenote'}) SET n.id = 'Gracenote_FACT'
+MERGE (n:ACT {name: 'Gracenote Data'}) SET n.id = 'Gracenote_Data_ACT'
+MERGE (n:ACT {name: 'Gracenote Servers'}) SET n.id = 'Gracenote_Servers_ACT'
+MERGE (n:ACTOR {name: 'Gracenote Data'}) SET n.id = 'Gracenote_Data_ACTOR'
+MERGE (n:ACTOR {name: 'the Gracenote Software'}) SET n.id = 'the_Gracenote_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Gracenote Servers'}) SET n.id = 'Gracenote_Servers_ACTOR'
+MERGE (n:ACTOR {name: 'Gracenote Software'}) SET n.id = 'Gracenote_Software_ACTOR'
+MERGE (n:ACTOR {name: 'THE GRACENOTE SOFTWARE'}) SET n.id = 'THE_GRACENOTE_SOFTWARE_ACTOR'
+MERGE (n:ACTOR {name: 'the Gracenote Data'}) SET n.id = 'the_Gracenote_Data_ACTOR'
+MERGE (n:ACTOR {name: 'the Gracenote Servers'}) SET n.id = 'the_Gracenote_Servers_ACTOR'
+MERGE (n:ACTOR {name: 'the Gracenote Privacy Policy'}) SET n.id = 'the_Gracenote_Privacy_Policy_ACTOR'
+MERGE (n:ACTOR {name: 'The Gracenote Software'}) SET n.id = 'The_Gracenote_Software_ACTOR'
+MERGE (n:ACTOR {name: 'Gracenote'}) SET n.id = 'Gracenote_ACTOR'
+MERGE (n:ACTOR {name: 'Gracenote 
+Data'}) SET n.id = 'Gracenote_
+Data_ACTOR'
+MERGE (n:FACT {name: 'the Gracenote Servers'}) SET n.id = 'the_Gracenote_Servers_FACT'
+MERGE (n:ACTOR {name: 'the Gracenote 
+Servers'}) SET n.id = 'the_Gracenote_
+Servers_ACTOR'
+MERGE (n:ACTOR {name: 'Gracenote 
+Software'}) SET n.id = 'Gracenote_
+Software_ACTOR'
+MERGE (n:ACTOR {name: 'TITLE'}) SET n.id = 'TITLE_ACTOR'
+MERGE (n:ACTOR {name: 'SERVER'}) SET n.id = 'SERVER_ACTOR'
+MERGE (n:ACTOR {name: 'Yahoo Search Service Restrictions'}) SET n.id = 'Yahoo_Search_Service_Restrictions_ACTOR'
+MERGE (n:ACTOR {name: 'The Yahoo Search Service'}) SET n.id = 'The_Yahoo_Search_Service_ACTOR'
+MERGE (n:ACTOR {name: 'Safari'}) SET n.id = 'Safari_ACTOR'
+MERGE (n:FACT {name: 'Argentina'}) SET n.id = 'Argentina_FACT'
+MERGE (n:FACT {name: 'Aruba'}) SET n.id = 'Aruba_FACT'
+MERGE (n:FACT {name: 'Austria'}) SET n.id = 'Austria_FACT'
+MERGE (n:FACT {name: 'Barbados'}) SET n.id = 'Barbados_FACT'
+MERGE (n:FACT {name: 'Belgium'}) SET n.id = 'Belgium_FACT'
+MERGE (n:FACT {name: 'Bermuda'}) SET n.id = 'Bermuda_FACT'
+MERGE (n:FACT {name: 'Brazil'}) SET n.id = 'Brazil_FACT'
+MERGE (n:FACT {name: 'Bulgaria'}) SET n.id = 'Bulgaria_FACT'
+MERGE (n:FACT {name: 'Canada'}) SET n.id = 'Canada_FACT'
+MERGE (n:FACT {name: 'Cayman Islands'}) SET n.id = 'Cayman_Islands_FACT'
+MERGE (n:FACT {name: 'Chile'}) SET n.id = 'Chile_FACT'
+MERGE (n:FACT {name: 'China'}) SET n.id = 'China_FACT'
+MERGE (n:FACT {name: 'Hong Kong'}) SET n.id = 'Hong_Kong_FACT'
+MERGE (n:FACT {name: 'Taiwan'}) SET n.id = 'Taiwan_FACT'
+MERGE (n:FACT {name: 'Colombia'}) SET n.id = 'Colombia_FACT'
+MERGE (n:FACT {name: 'Cyprus'}) SET n.id = 'Cyprus_FACT'
+MERGE (n:FACT {name: 'Czech Republic'}) SET n.id = 'Czech_Republic_FACT'
+MERGE (n:FACT {name: 'Denmark'}) SET n.id = 'Denmark_FACT'
+MERGE (n:FACT {name: 'Dominican Republic'}) SET n.id = 'Dominican_Republic_FACT'
+MERGE (n:FACT {name: 'Ecuador'}) SET n.id = 'Ecuador_FACT'
+MERGE (n:FACT {name: 'El Salvador'}) SET n.id = 'El_Salvador_FACT'
+MERGE (n:FACT {name: 'Finland'}) SET n.id = 'Finland_FACT'
+MERGE (n:FACT {name: 'France'}) SET n.id = 'France_FACT'
+MERGE (n:FACT {name: 'Germany'}) SET n.id = 'Germany_FACT'
+MERGE (n:FACT {name: 'Greece'}) SET n.id = 'Greece_FACT'
+MERGE (n:FACT {name: 'Grenada'}) SET n.id = 'Grenada_FACT'
+MERGE (n:FACT {name: 'Guatemala'}) SET n.id = 'Guatemala_FACT'
+MERGE (n:FACT {name: 'Hungary'}) SET n.id = 'Hungary_FACT'
+MERGE (n:FACT {name: 'Iceland'}) SET n.id = 'Iceland_FACT'
+MERGE (n:FACT {name: 'India'}) SET n.id = 'India_FACT'
+MERGE (n:FACT {name: 'Indonesia'}) SET n.id = 'Indonesia_FACT'
+MERGE (n:FACT {name: 'Ireland'}) SET n.id = 'Ireland_FACT'
+MERGE (n:FACT {name: 'Italy'}) SET n.id = 'Italy_FACT'
+MERGE (n:FACT {name: 'Jamaica'}) SET n.id = 'Jamaica_FACT'
+MERGE (n:FACT {name: 'Japan'}) SET n.id = 'Japan_FACT'
+MERGE (n:FACT {name: 'Latvia'}) SET n.id = 'Latvia_FACT'
+MERGE (n:FACT {name: 'Lithuania'}) SET n.id = 'Lithuania_FACT'
+MERGE (n:FACT {name: 'Luxembourg'}) SET n.id = 'Luxembourg_FACT'
+MERGE (n:FACT {name: 'Malaysia'}) SET n.id = 'Malaysia_FACT'
+MERGE (n:FACT {name: 'Malta'}) SET n.id = 'Malta_FACT'
+MERGE (n:FACT {name: 'Mexico'}) SET n.id = 'Mexico_FACT'
+MERGE (n:FACT {name: 'Netherlands'}) SET n.id = 'Netherlands_FACT'
+MERGE (n:FACT {name: 'New 
+Zealand'}) SET n.id = 'New_
+Zealand_FACT'
+MERGE (n:FACT {name: 'Nicaragua'}) SET n.id = 'Nicaragua_FACT'
+MERGE (n:FACT {name: 'Norway'}) SET n.id = 'Norway_FACT'
+MERGE (n:FACT {name: 'Panama'}) SET n.id = 'Panama_FACT'
+MERGE (n:FACT {name: 'Peru'}) SET n.id = 'Peru_FACT'
+MERGE (n:FACT {name: 'Philippines'}) SET n.id = 'Philippines_FACT'
+MERGE (n:FACT {name: 'Poland'}) SET n.id = 'Poland_FACT'
+MERGE (n:FACT {name: 'Portugal'}) SET n.id = 'Portugal_FACT'
+MERGE (n:FACT {name: 'Puerto Rico'}) SET n.id = 'Puerto_Rico_FACT'
+MERGE (n:FACT {name: 'Romania'}) SET n.id = 'Romania_FACT'
+MERGE (n:FACT {name: 'Singapore'}) SET n.id = 'Singapore_FACT'
+MERGE (n:FACT {name: 'Slovakia'}) SET n.id = 'Slovakia_FACT'
+MERGE (n:FACT {name: 'Slovenia'}) SET n.id = 'Slovenia_FACT'
+MERGE (n:FACT {name: 'South Korea'}) SET n.id = 'South_Korea_FACT'
+MERGE (n:FACT {name: 'Spain'}) SET n.id = 'Spain_FACT'
+MERGE (n:FACT {name: 'St. Lucia'}) SET n.id = 'St._Lucia_FACT'
+MERGE (n:FACT {name: 'St. Vincent'}) SET n.id = 'St._Vincent_FACT'
+MERGE (n:FACT {name: 'Sweden'}) SET n.id = 'Sweden_FACT'
+MERGE (n:FACT {name: 'Switzerland'}) SET n.id = 'Switzerland_FACT'
+MERGE (n:FACT {name: 'Thailand'}) SET n.id = 'Thailand_FACT'
+MERGE (n:FACT {name: 'Bahamas'}) SET n.id = 'Bahamas_FACT'
+MERGE (n:FACT {name: 'Trinidad'}) SET n.id = 'Trinidad_FACT'
+MERGE (n:FACT {name: 'Tobago'}) SET n.id = 'Tobago_FACT'
+MERGE (n:FACT {name: 'Turkey'}) SET n.id = 'Turkey_FACT'
+MERGE (n:FACT {name: 'UK'}) SET n.id = 'UK_FACT'
+MERGE (n:FACT {name: 'Uruguay'}) SET n.id = 'Uruguay_FACT'
+MERGE (n:FACT {name: 'US'}) SET n.id = 'US_FACT'
+MERGE (n:FACT {name: 'Venezuela'}) SET n.id = 'Venezuela_FACT'
+MERGE (n:DUTY {name: 'Apple Pay & Wallet Terms and'}) SET n.id = 'Apple_Pay_&_Wallet_Terms_and_DUTY'
+MERGE (n:DUTY {name: 'Apple 
+Software License Agreement'}) SET n.id = 'Apple_
+Software_License_Agreement_DUTY'
+MERGE (n:ACTOR {name: 'Apple 
+Pay & Wallet'}) SET n.id = 'Apple_
+Pay_&_Wallet_ACTOR'
+MERGE (n:ACT {name: 'Apple Pay”'}) SET n.id = 'Apple_Pay”_ACT'
+MERGE (n:ACTOR {name: 'Apple Wallet'}) SET n.id = 'Apple_Wallet_ACTOR'
+MERGE (n:ACT {name: 'Wallet'}) SET n.id = 'Wallet_ACT'
+MERGE (n:DUTY {name: 'Apple Pay & 
+Wallet Terms'}) SET n.id = 'Apple_Pay_&_
+Wallet_Terms_DUTY'
+MERGE (n:ACTOR {name: 'these Apple Pay & Wallet'}) SET n.id = 'these_Apple_Pay_&_Wallet_ACTOR'
+MERGE (n:DUTY {name: 'Apple Pay & Wallet Terms'}) SET n.id = 'Apple_Pay_&_Wallet_Terms_DUTY'
+MERGE (n:ACTOR {name: 'Apple Pay Cards'}) SET n.id = 'Apple_Pay_Cards_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Payments Services'}) SET n.id = 'Apple_Payments_Services_ACTOR'
+MERGE (n:ACTOR {name: 'Apple 
+Pay'}) SET n.id = 'Apple_
+Pay_ACTOR'
+MERGE (n:ACT {name: 'Supported Cards'}) SET n.id = 'Supported_Cards_ACT'
+MERGE (n:ACTOR {name: 'Supported Cards'}) SET n.id = 'Supported_Cards_ACTOR'
+MERGE (n:DATE {name: '13 years or older'}) SET n.id = '13_years_or_older_DATE'
+MERGE (n:ACTOR {name: 'Service'}) SET n.id = 'Service_ACTOR'
+MERGE (n:FACT {name: 'iPhone'}) SET n.id = 'iPhone_FACT'
+MERGE (n:ACTOR {name: 'Apple Watch'}) SET n.id = 'Apple_Watch_ACTOR'
+MERGE (n:ACTOR {name: 'a Supported Card'}) SET n.id = 'a_Supported_Card_ACTOR'
+MERGE (n:ACTOR {name: 'iPhone'}) SET n.id = 'iPhone_ACTOR'
+MERGE (n:ACTOR {name: 'the “Supported Devices'}) SET n.id = 'the_“Supported_Devices_ACTOR'
+MERGE (n:ACTOR {name: 'iPad'}) SET n.id = 'iPad_ACTOR'
+MERGE (n:DUTY {name: 'the Apple Pay & 
+Wallet Terms and Conditions'}) SET n.id = 'the_Apple_Pay_&_
+Wallet_Terms_and_Conditions_DUTY'
+MERGE (n:ACTOR {name: 'Supported Devices'}) SET n.id = 'Supported_Devices_ACTOR'
+MERGE (n:ACTOR {name: 'Apple Payments Services 
+LLC'}) SET n.id = 'Apple_Payments_Services_
+LLC_ACTOR'
+MERGE (n:ACTOR {name: 'a Supported Device'}) SET n.id = 'a_Supported_Device_ACTOR'
+MERGE (n:ACTOR {name: 'MacBook Pro'}) SET n.id = 'MacBook_Pro_ACTOR'
+MERGE (n:ACTOR {name: 'Supported Cards in Wallet'}) SET n.id = 'Supported_Cards_in_Wallet_ACTOR'
+MERGE (n:DUTY {name: 'these Apple Pay & Wallet Terms'}) SET n.id = 'these_Apple_Pay_&_Wallet_Terms_DUTY'
+MERGE (n:ACTOR {name: 'APPLE PAYMENTS SERVICES'}) SET n.id = 'APPLE_PAYMENTS_SERVICES_ACTOR'
+MATCH (a), (b) WHERE a.id = 'APPLE_INC._FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`produced_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_INC._FACT' AND b.id = 'APPLE_FACT' MERGE (a)-[:`produced_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_INC._FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`produced_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_INC._FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`produced_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_INC._FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`produced_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'macOS_Sequoia_FACT' AND b.id = 'DISAGREE_FACT' MERGE (a)-[:`contains`]->(b)
+MATCH (a), (b) WHERE a.id = 'macOS_Sequoia_FACT' AND b.id = 'DISAGREE_FACT' MERGE (a)-[:`contains`]->(b)
+MATCH (a), (b) WHERE a.id = 'Boot_ROM_FACT' AND b.id = 'APPLE_INC._FACT' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_branded_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Original_
+Apple_Software_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Original_
+Apple_Software_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_Changes_ACTOR' AND b.id = 'the_“Apple_Software_ACTOR' MERGE (a)-[:`is_collectively_referred_to_as`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_“Apple_Software_ACTOR' AND b.id = 'Apple_Inc._ACTOR' MERGE (a)-[:`is_licensed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Inc._ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_also_known_as`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`retains_ownership_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`is_subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'B._Apple_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR' MERGE (a)-[:`may_provide`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_
+Changes_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`may_not_include`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'third_ACTOR' MERGE (a)-[:`is_provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'C._Title_ACTOR' MERGE (a)-[:`does_not_grant_rights_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`grants_license`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`obtained_from`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_App_Store_ACTOR' AND b.id = 'Mac_App_Store_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_
+Software_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'B._Mac_App_Store_License_ACTOR' AND b.id = 'the_Services_and_Content_Usage_Rules_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Media_Services_ACTOR' AND b.id = 'Sonoma_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'Apple_Software_NUMBER' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'the_Apple_
+Software_NUMBER' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_
+Software_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'C._Volume_NUMBER' AND b.id = 'Maintenance_License_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'one_NUMBER' AND b.id = 'up_to_two_NUMBER' MERGE (a)-[:`limits`]->(b)
+MATCH (a), (b) WHERE a.id = '1_NUMBER' AND b.id = '2_NUMBER' MERGE (a)-[:`limits`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_
+Computer_NUMBER' AND b.id = 'Mac_Computer_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_NUMBER' AND b.id = 'Mac_Computer_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_NUMBER' AND b.id = 'Mac_Computer_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_NUMBER' AND b.id = 'Mac_
+Computer_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`agrees_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`applies_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`obtained_under`]->(b)
+MATCH (a), (b) WHERE a.id = 'D._System_Requirements_ACTOR' AND b.id = 'Apple_Account_ACTOR' MERGE (a)-[:`requires`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Account_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_
+Apple_Software_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'F._Voices_ACTOR' AND b.id = 'the_Live_
+Captions_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`while_running`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Live_
+Captions_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`generated_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Personal_Voice_ACTOR' AND b.id = 'Personal_Voice_ACTOR' MERGE (a)-[:`sounds_like`]->(b)
+MATCH (a), (b) WHERE a.id = 'Live_Captions_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`permitted_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_System_
+Voices,_Live_Captions_or_ACTOR' AND b.id = 'Personal_Voice_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'G._Photos_App_Features_and_Support_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Digital_Materials”_ACTOR' MERGE (a)-[:`contains`]->(b)
+MATCH (a), (b) WHERE a.id = 'H._Content_Caching_Features_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Eligible_Content_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Content_Caching_Features_of_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Caching_Enabled_Mac_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Caching_Enabled_Mac_ACTOR' AND b.id = 'Caching_Enabled_Mac_ACTOR' MERGE (a)-[:`part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Content_Caching_Features_of_the_Apple_Software_DUTY' AND b.id = 'Caching_Enabled_Mac_DUTY' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Content_Caching_Features_of_DUTY' AND b.id = 'the_Apple_Software_DUTY' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Eligible_Content_DUTY' AND b.id = 'Apple_DUTY' MERGE (a)-[:`requires_authentication`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Eligible_Content_DUTY' AND b.id = 'Apple_Eligible_Content_DUTY' MERGE (a)-[:`is_subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Media_Services_Terms_and_Conditions_DUTY' AND b.id = 'the_iCloud_Terms_and_Conditions_DUTY' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_License_Agreements_DUTY' AND b.id = 'https://www.apple.com/legal/sla/._DUTY' MERGE (a)-[:`is_found_at`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Content_Caching_Features_DUTY' AND b.id = 'Caching_Enabled_Mac_DUTY' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Eligible_
+Content_DUTY' AND b.id = 'the_Apple_Eligible_Content_DUTY' MERGE (a)-[:`is_subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_DUTY' AND b.id = 'Apple_Eligible_Content_DUTY' MERGE (a)-[:`holds_rights_over`]->(b)
+MATCH (a), (b) WHERE a.id = 'Caching_Enabled_Mac_DUTY' AND b.id = 'the_Content_Caching_Features_DUTY' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR' MERGE (a)-[:`has_rights`]->(b)
+MATCH (a), (b) WHERE a.id = 'Caching_Enabled_Mac_ACTOR' AND b.id = 'the_Content_Caching_Features_ACTOR' MERGE (a)-[:`uses_feature`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Eligible_Content_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Content_Caching_Features_of_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`developed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Eligible_Content_ACTOR' MERGE (a)-[:`manages_content`]->(b)
+MATCH (a), (b) WHERE a.id = 'Caching_Enabled_Mac_ACTOR' AND b.id = 'Caching_Enabled_Mac_ACTOR' MERGE (a)-[:`uses_device`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_
+Software_ACTOR' MERGE (a)-[:`implements`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR' MERGE (a)-[:`controls_content`]->(b)
+MATCH (a), (b) WHERE a.id = 'Caching_
+Enabled_Mac_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_parent_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Caching_Enabled_
+Macs_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_sibling_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Eligible_Content_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Eligible_Content_ACTOR' AND b.id = 'the_Content_Caching_Features_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'I._Remote_Desktop_Connections_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`is_governed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_“Home_Mac_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'only_one_ACTOR' AND b.id = '1_ACTOR' MERGE (a)-[:`is_a_quantity_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'one_ACTOR' AND b.id = 'only_one_ACTOR' MERGE (a)-[:`is_a_quantity_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Home_Mac_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Home_Mac_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_
+Software_ACTOR' AND b.id = 'only_one_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = '1_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'one_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Home_Mac_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Section_2I_ACTOR' AND b.id = 'Section_3_ACTOR' MERGE (a)-[:`is_a_section_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'J._Other_Use_Restrictions_NUMBER' AND b.id = 'License_NUMBER' MERGE (a)-[:`License`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'non-Apple_NUMBER' MERGE (a)-[:`Brand`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`Brand`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`Software`]->(b)
+MATCH (a), (b) WHERE a.id = 'K._Backup_Copy_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`Backup`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Boot_ROM_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`Brand`]->(b)
+MATCH (a), (b) WHERE a.id = 'L._Migration_of_Existing_Software_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`Migration`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`Brand`]->(b)
+MATCH (a), (b) WHERE a.id = 'this_Apple_Software_NUMBER' AND b.id = 'Apple_
+Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'M._Open_Source_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'third_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_NUMBER' AND b.id = 'Open_Source_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_“Open-Sourced_Components_NUMBER' AND b.id = 'these_Open-Sourced_Components_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_
+Software_NUMBER' AND b.id = 'Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'License_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Open-Sourced_Components_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_NUMBER' AND b.id = 'Apple_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'N._No_Reverse_Engineering_NUMBER' AND b.id = 'License_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Usage_Rules_NUMBER' AND b.id = 'the_Apple_Software_NUMBER' MERGE (a)-[:`is_a`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Open-Sourced_Components_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = '6_ACTOR' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'the_Apple_
+Software_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'P._Third_Party_Software_ACTOR' MERGE (a)-[:`provides_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_ACTOR' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'third_ACTOR' MERGE (a)-[:`contains`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'third_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Q._Apple_Software_Changes_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Apple_Software_ACTOR' AND b.id = 'Apple_for_Apple_Software_
+Changes_ACTOR' MERGE (a)-[:`checks_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`may_download`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`developed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_Changes_ACTOR' AND b.id = 'Rapid_Security_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_Software_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'non-proﬁt_ACTOR' MERGE (a)-[:`restricts`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_Software_ACTOR' MERGE (a)-[:`leases`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'Permitted_
+Developer_Services_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`installed_on`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Lessor_ACTOR' MERGE (a)-[:`is`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_preinstalled_on`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Xcode_ACTOR' MERGE (a)-[:`has_software`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`has_software`]->(b)
+MATCH (a), (b) WHERE a.id = 'Section_3_ACTOR' AND b.id = 'Lessee_ACTOR' MERGE (a)-[:`defines`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'Permitted_Developer_Services_ACTOR' MERGE (a)-[:`is_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_ACTOR' MERGE (a)-[:`provides_notice_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'B._Subleasing_ACTOR' AND b.id = 'Lessee_ACTOR' MERGE (a)-[:`may_sublease`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Section_3_ACTOR' MERGE (a)-[:`complies_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Apple_
+Software_ACTOR' MERGE (a)-[:`subleases`]->(b)
+MATCH (a), (b) WHERE a.id = 'Section_3_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`relinquishes_control_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'C._Enforcement_ACTOR' AND b.id = 'Lessee_ACTOR' MERGE (a)-[:`is_responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`assists_in_enforcing`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`breaches`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_ACTOR' MERGE (a)-[:`terminates_use_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Lessee_ACTOR' MERGE (a)-[:`notifies_of_breach`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`leases`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`accesses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Lessor_ACTOR' MERGE (a)-[:`acknowledges`]->(b)
+MATCH (a), (b) WHERE a.id = 'Lessor_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`leases`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`obtains`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_branded_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_branded_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`assigns`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_treated_in_accordance_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`enables_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`enables_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'iTunes_Store_ACTOR' MERGE (a)-[:`has_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Mac_App_Store_ACTOR' MERGE (a)-[:`has_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_
+Books,_Game_Center_ACTOR' MERGE (a)-[:`has_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'iCloud_ACTOR' MERGE (a)-[:`has_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`has_access_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Account_ACTOR' AND b.id = 'an_Apple_Account_ACTOR' MERGE (a)-[:`requires`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_
+Services_ACTOR' AND b.id = 'Apple_Media_Services_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'iCloud_ACTOR' AND b.id = 'iCloud_ACTOR' MERGE (a)-[:`has_features`]->(b)
+MATCH (a), (b) WHERE a.id = 'iCloud_ACTOR' AND b.id = 'iCloud_ACTOR' MERGE (a)-[:`is_subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provides_information_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'F._Certain_Apple_Software_and_Services_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Party_Materials_ACTOR' AND b.id = 'party_Services_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Third_Party_Materials_ACTOR' AND b.id = 'Third_Party_Materials_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'G._Neither_Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_Software_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'the_Apple_
+Software_and_Services_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_
+Software_and_Services_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_Maps_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Maps_ACTOR' AND b.id = 'Maps_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Maps_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`transmits`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_
+Software_and_Services_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`contains`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`owned_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'the_Apple_
+Software_and_Services_ACTOR' MERGE (a)-[:`permitted_use`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_Software_and_Services_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'I._Certain_Apple_Software,_Services_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_Software,_Services_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software,_Services_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'Party_Materials_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'Apple_Software,_Services_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'Apple_Software_and_Services_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'Apple_Software_and_Services_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'Apple_Software_and_Services_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software,_Services_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'Australia_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Australia_FACT' AND b.id = 'License_FACT' MERGE (a)-[:`affects`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_FACT' AND b.id = 'APPLE_FACT' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_FACT' AND b.id = 'APPLE_FACT' MERGE (a)-[:`is_referred_to_as`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_FACT' AND b.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_FACT' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_FACT' AND b.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_FACT' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_OR_FACT' AND b.id = 'APPLICATIONS_FACT' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'THIRD_FACT' AND b.id = 'USABILITY_FACT' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'THIRD_FACT' AND b.id = 'APPLICATIONS_FACT' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'USABILITY_OF_THIRD_PARTY_SOFTWARE_ACTOR' AND b.id = 'APPLICATIONS_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_ACTOR' AND b.id = 'THE_APPLE_SOFTWARE_OR_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_ACTOR' AND b.id = 'CONTENT_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_SOFTWARE_OR_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'THIRD_ACTOR' AND b.id = 'APPLICATIONS_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'THE_APPLE_SOFTWARE_ACTOR' AND b.id = 'APPLE_SOFTWARE_OR_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'United_States_ACTOR' AND b.id = 'United_States_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'United_States_FACT' AND b.id = 'the_United_States_FACT' MERGE (a)-[:`governed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Apple_Software_FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_FACT' AND b.id = 'the_Apple_Software_FACT' MERGE (a)-[:`relates_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_State_of_California_FACT' AND b.id = 'Law_FACT' MERGE (a)-[:`governed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_United_Kingdom_FACT' AND b.id = 'the_State_of_California_FACT' MERGE (a)-[:`governed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`issued_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`signed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`translation_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'English_ACTOR' AND b.id = 'English_ACTOR' MERGE (a)-[:`language_version`]->(b)
+MATCH (a), (b) WHERE a.id = 'A._Portions_of_the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`utilizes`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Google_Safe_Browsing_Service_ACTOR' AND b.id = 'the_Google_Terms_of_Service_ACTOR' MERGE (a)-[:`subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`request_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'WARRANTY_ACTOR' AND b.id = 'GPL_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'GPL_ACTOR' AND b.id = 'LGPL_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Apple_
+Software_ACTOR' AND b.id = 'the_MPEG-4_Systems_Patent_Portfolio_License_ACTOR' MERGE (a)-[:`licensed_under`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_MPEG-4_Systems_Patent_Portfolio_License_ACTOR' AND b.id = 'the_MPEG-4_Systems_Standard_ACTOR' MERGE (a)-[:`licensed_under`]->(b)
+MATCH (a), (b) WHERE a.id = 'MPEG_LA_ACTOR' AND b.id = 'LLC_ACTOR' MERGE (a)-[:`associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_MPEG-4_Visual_Patent_Portfolio_License_ACTOR' AND b.id = 'the_MPEG-4_Visual_Standard_ACTOR' MERGE (a)-[:`licensed_under`]->(b)
+MATCH (a), (b) WHERE a.id = 'MPEG_LA_ACTOR' AND b.id = 'MPEG_LA_ACTOR' MERGE (a)-[:`associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'AVC_Notice_ACTOR' AND b.id = 'the_Apple_Software_ACTOR' MERGE (a)-[:`contains`]->(b)
+MATCH (a), (b) WHERE a.id = 'AVC_ACTOR' AND b.id = 'THE_AVC_STANDARD_ACTOR' MERGE (a)-[:`compliance_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'MPEG_LA_
+L.L.C._ACTOR' AND b.id = 'HTTPS://WWW.MPEGLA.COM_ACTOR' MERGE (a)-[:`associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'MPEG_LA_
+L.L.C._ACTOR' AND b.id = 'HTTPS://WWW.MPEGLA.COM_ACTOR' MERGE (a)-[:`provides_information`]->(b)
+MATCH (a), (b) WHERE a.id = 'E._AMR_Notice_ACTOR' AND b.id = 'AMR_ACTOR' MERGE (a)-[:`is_related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'AMR_ACTOR' AND b.id = 'Windows_ACTOR' MERGE (a)-[:`is_used_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'F._FAA_Notice_ACTOR' AND b.id = 'National_Airspace_System_Status_Information_ACTOR' MERGE (a)-[:`provides_data`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Federal_Aviation_
+Administration_ACTOR' AND b.id = 'Flight_Data_ACTOR' MERGE (a)-[:`generates`]->(b)
+MATCH (a), (b) WHERE a.id = 'FAA_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`disclaims_warranties`]->(b)
+MATCH (a), (b) WHERE a.id = 'FAA_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_not_responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'G._Use_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_used_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Adobe_Color_Proﬁles_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`is_part_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'the_Color_
+Proﬁles_ACTOR' MERGE (a)-[:`provides_support_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Adobe_ACTOR' AND b.id = 'Adobe_ACTOR' MERGE (a)-[:`is_associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Adobe_Color_Proﬁle_ACTOR' AND b.id = 'the_
+Apple_Software_ACTOR' MERGE (a)-[:`is_distributed_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote,_Inc._ACTOR' AND b.id = 'Emeryville_ACTOR' MERGE (a)-[:`is_located_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'Emeryville_ACTOR' AND b.id = 'California_ACTOR' MERGE (a)-[:`is_located_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_ACTOR' AND b.id = 'Gracenote,_Inc._ACTOR' MERGE (a)-[:`is_a_facility_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_ACTOR' AND b.id = 'Gracenote_Data_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_ACTOR' AND b.id = 'Gracenote_Servers_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_Data_ACTOR' AND b.id = 'Gracenote_Data_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Gracenote_Software_ACTOR' AND b.id = 'Gracenote_Servers_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_Software_ACTOR' AND b.id = 'Gracenote_Data_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Gracenote_Software_ACTOR' AND b.id = 'Gracenote_Servers_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Gracenote_Data_ACTOR' AND b.id = 'the_Gracenote_Software_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_Servers_ACTOR' AND b.id = 'Gracenote_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_ACTOR' AND b.id = 'Gracenote_Data_ACTOR' MERGE (a)-[:`reserves_rights_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_ACTOR' AND b.id = 'the_Gracenote_Software_ACTOR' MERGE (a)-[:`reserves_rights_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_ACTOR' AND b.id = 'the_Gracenote_Servers_ACTOR' MERGE (a)-[:`reserves_rights_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_FACT' AND b.id = 'Gracenote,_Inc._FACT' MERGE (a)-[:`liability`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_FACT' AND b.id = 'Gracenote_FACT' MERGE (a)-[:`service`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Gracenote_Privacy_Policy_FACT' AND b.id = 'The_Gracenote_Software_FACT' MERGE (a)-[:`policy`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Gracenote_Software_FACT' AND b.id = 'Gracenote_Data_FACT' MERGE (a)-[:`licensed`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_FACT' AND b.id = 'Gracenote_
+Data_FACT' MERGE (a)-[:`accuracy`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Gracenote_Servers_FACT' AND b.id = 'the_Gracenote_
+Servers_FACT' MERGE (a)-[:`data`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_FACT' AND b.id = 'Gracenote_FACT' MERGE (a)-[:`right`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_Gracenote_Software_FACT' AND b.id = 'Gracenote_Servers_FACT' MERGE (a)-[:`error_free`]->(b)
+MATCH (a), (b) WHERE a.id = 'Gracenote_FACT' AND b.id = 'Gracenote_FACT' MERGE (a)-[:`obligation`]->(b)
+MATCH (a), (b) WHERE a.id = 'TITLE_FACT' AND b.id = 'SERVER_FACT' MERGE (a)-[:`warranty`]->(b)
+MATCH (a), (b) WHERE a.id = '15_FACT' AND b.id = 'Yahoo_Search_Service_Restrictions_FACT' MERGE (a)-[:`restriction`]->(b)
+MATCH (a), (b) WHERE a.id = 'The_Yahoo_Search_Service_FACT' AND b.id = 'Safari_FACT' MERGE (a)-[:`service`]->(b)
+MATCH (a), (b) WHERE a.id = 'Argentina_FACT' AND b.id = 'Aruba_FACT' MERGE (a)-[:`country`]->(b)
+MATCH (a), (b) WHERE a.id = 'Australia_FACT' AND b.id = 'Austria_FACT' MERGE (a)-[:`country`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Pay_&_Wallet_Terms_and_FACT' AND b.id = 'Apple_
+Software_License_Agreement_FACT' MERGE (a)-[:`supplements`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_
+Software_License_Agreement_FACT' AND b.id = 'License_FACT' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_FACT' AND b.id = 'Apple_
+Pay_&_Wallet_FACT' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_
+Pay_&_Wallet_FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_FACT' AND b.id = 'Apple_Pay”_FACT' MERGE (a)-[:`is_feature_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Wallet_FACT' AND b.id = 'Wallet_FACT' MERGE (a)-[:`is_feature_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Pay_&_
+Wallet_Terms_FACT' AND b.id = 'License_FACT' MERGE (a)-[:`has_meaning_in`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_United_States_FACT' AND b.id = 'Apple_Payments_Services_FACT' MERGE (a)-[:`provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_United_States_FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_FACT' AND b.id = 'Apple_FACT' MERGE (a)-[:`provided_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provides_service`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`provides_service`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Account_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`associated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'iCloud_ACTOR' AND b.id = '13_years_or_older_ACTOR' MERGE (a)-[:`subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Cards_ACTOR' AND b.id = 'Apple_Pay_&_
+Wallet_Terms_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'License_ACTOR' MERGE (a)-[:`prohibited_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`interferes_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`uses_on`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`initiates_payments_on`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'a_Supported_Card_ACTOR' MERGE (a)-[:`requires`]->(b)
+MATCH (a), (b) WHERE a.id = 'iPhone_ACTOR' AND b.id = 'Apple_Watch_ACTOR' MERGE (a)-[:`uses_on`]->(b)
+MATCH (a), (b) WHERE a.id = 'the_“Supported_Devices_ACTOR' AND b.id = 'Apple_Account_ACTOR' MERGE (a)-[:`signed_in_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Safari_ACTOR' MERGE (a)-[:`uses_on`]->(b)
+MATCH (a), (b) WHERE a.id = 'iPhone_ACTOR' AND b.id = 'iPad_ACTOR' MERGE (a)-[:`provisioned_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Supported_Devices_ACTOR' MERGE (a)-[:`subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Devices_ACTOR' AND b.id = 'iPhone_ACTOR' MERGE (a)-[:`accessed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Inc._ACTOR' MERGE (a)-[:`refers_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_ACTOR' MERGE (a)-[:`refers_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`has_relationship_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Inc._ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_
+LLC_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`includes`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`not_issued_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`not_processed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'third_ACTOR' MERGE (a)-[:`managed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'third_ACTOR' MERGE (a)-[:`contracting_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Cards_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`governed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`subject_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`modifies_terms_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`governed_by`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`governs`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`not_a_party_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Supported_Cards_ACTOR' MERGE (a)-[:`responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Supported_Cards_ACTOR' MERGE (a)-[:`responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Supported_Cards_ACTOR' MERGE (a)-[:`responsible_for`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`transfers_information_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_
+Pay_ACTOR' AND b.id = 'MacBook_Pro_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'MacBook_Pro_ACTOR' MERGE (a)-[:`adds_card_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'Supported_Devices_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Account_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Devices_ACTOR' AND b.id = 'third_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'third_ACTOR' AND b.id = 'Supported_Cards_in_Wallet_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'Supported_Devices_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'Supported_Devices_ACTOR' MERGE (a)-[:`is_a_type_of`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Devices_ACTOR' AND b.id = 'these_Apple_Pay_&_Wallet_Terms_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Cards_ACTOR' AND b.id = 'Mac_Computer_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Cards_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`uses`]->(b)
+MATCH (a), (b) WHERE a.id = 'Supported_Cards_ACTOR' AND b.id = 'Supported_Cards_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`cooperates_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_PAYMENTS_SERVICES_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_PAYMENTS_SERVICES_ACTOR' MERGE (a)-[:`provides`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_ACTOR' MERGE (a)-[:`related_to`]->(b)
+MATCH (a), (b) WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_PAYMENTS_SERVICES_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'APPLE_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_Payments_Services_ACTOR' AND b.id = 'APPLE_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
+MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)

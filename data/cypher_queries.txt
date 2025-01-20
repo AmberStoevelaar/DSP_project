@@ -1,10 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cca7142 (descriptions added per node for summarization)
 =======
 >>>>>>> f4a4989 (final knowledge graph tinkering)
+=======
+=======
+>>>>>>> cca7142 (descriptions added per node for summarization)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
 
         MERGE (n:ACTOR {name: 'THE ENTIRE HARDWARE/SOFTWARE PACKAGE IN'})
         SET n.id = 'THE_ENTIRE_HARDWARE/SOFTWARE_PACKAGE_IN_ACTOR', n.descriptions = ["AT https://www.apple.com/legal/sales-support/. YOU MUST RETURN \nTHE ENTIRE HARDWARE/SOFTWARE PACKAGE IN ORDER TO OBTAIN A REFUND."]
@@ -884,6 +889,7 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
 
         MATCH (a), (b)
 <<<<<<< HEAD
+<<<<<<< HEAD
         WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
         MERGE (a)-[:owns]->(b)
 =======
@@ -910,8 +916,15 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
 =======
         MERGE (a)-[:provided_by]->(b)
 =======
+=======
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
         MERGE (a)-[:owns]->(b)
+=======
+<<<<<<< HEAD
+        WHERE a.id = 'THE_ENTIRE_HARDWARE/SOFTWARE_PACKAGE_IN_ACTOR' AND b.id = 'THE_ENTIRE_HARDWARE/SOFTWARE_PACKAGE_IN_ACTOR'
+        MERGE (a)-[:return_policy]->(b)
+>>>>>>> 80e8ab8 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
@@ -926,7 +939,31 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
 
         MATCH (a), (b)
         WHERE a.id = 'Apple_Software_Changes_ACTOR' AND b.id = 'Apple_ACTOR'
+<<<<<<< HEAD
         MERGE (a)-[:accompanied_by]->(b)
+<<<<<<< HEAD
+=======
+=======
+        MERGE (a)-[:provided_by]->(b)
+=======
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:owns]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:governs]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_Changes_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR'
+        MERGE (a)-[:accompanied_by]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
 >>>>>>> cca7142 (descriptions added per node for summarization)
 >>>>>>> 80e8ab8 (descriptions added per node for summarization)
         
@@ -976,6 +1013,7 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
         
 
         MATCH (a), (b)
+<<<<<<< HEAD
 <<<<<<< HEAD
         WHERE a.id = 'the_Services_and_Content_Usage_Rules_ACTOR' AND b.id = 'the_Apple_Media_Services_ACTOR'
         MERGE (a)-[:set_forth_in]->(b)
@@ -1027,6 +1065,8 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
         WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = '1_ACTOR'
         MERGE (a)-[:quantity]->(b)
 =======
+=======
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         WHERE a.id = 'the_Services_and_Content_Usage_Rules_ACTOR' AND b.id = 'the_Apple_Media_Services_ACTOR'
         MERGE (a)-[:set_forth_in]->(b)
         
@@ -1037,6 +1077,9 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
         
 
         MATCH (a), (b)
+=======
+<<<<<<< HEAD
+>>>>>>> 80e8ab8 (descriptions added per node for summarization)
         WHERE a.id = 'Apple_ACTOR' AND b.id = 'Sonoma_ACTOR'
         MERGE (a)-[:runs_on]->(b)
         
@@ -1067,8 +1110,68 @@ Wallet_Terms_DUTY', n.descriptions = ["If \nyou are provisioning a supported cor
         
 
         MATCH (a), (b)
+<<<<<<< HEAD
         WHERE a.id = 'Mac_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
         MERGE (a)-[:uses]->(b)
+<<<<<<< HEAD
+=======
+=======
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = '1_ACTOR'
+        MERGE (a)-[:quantity]->(b)
+=======
+        WHERE a.id = 'the_Services_and_Content_Usage_Rules_ACTOR' AND b.id = 'the_Apple_Media_Services_ACTOR'
+        MERGE (a)-[:set_forth_in]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Media_Services_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Sonoma_ACTOR'
+        MERGE (a)-[:runs_on]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:produces]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Sonoma_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Ventura_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'macOS_Monterey_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'macOS_Mojave_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'macOS_High_Sierra_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Mac_Computer_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:is_a]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Mac_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
 >>>>>>> cca7142 (descriptions added per node for summarization)
 >>>>>>> 80e8ab8 (descriptions added per node for summarization)
         
@@ -2307,6 +2410,7 @@ MERGE (n:ACTOR {name: 'Mac'}) SET n.id = 'Mac_ACTOR'
 MERGE (n:ACTOR {name: 'Mac 
 Computer'}) SET n.id = 'Mac_
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cca7142 (descriptions added per node for summarization)
 Computer_ACTOR'
@@ -3017,249 +3121,750 @@ Books,_Game_Center_NUMBER'
 Software_ACTOR'
 <<<<<<< HEAD
 =======
+=======
+=======
+>>>>>>> cca7142 (descriptions added per node for summarization)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
 Computer_ACTOR'
-MERGE (n:ACTOR {name: 'Apple Software'}) SET n.id = 'Apple_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Mac Computer'}) SET n.id = 'Mac_Computer_ACTOR'
-MERGE (n:SECTION {name: 'Section 3'}) SET n.id = 'Section_3_SECTION'
-MERGE (n:SECTION {name: 'Section 2B(iii'}) SET n.id = 'Section_2B(iii_SECTION'
-MERGE (n:SECTION {name: 'Section 2B'}) SET n.id = 'Section_2B_SECTION'
-MERGE (n:ACTOR {name: 'C. Volume'}) SET n.id = 'C._Volume_ACTOR'
-MERGE (n:ACTOR {name: 'Maintenance License'}) SET n.id = 'Maintenance_License_ACTOR'
-MERGE (n:ACTOR {name: 'D. System Requirements'}) SET n.id = 'D._System_Requirements_ACTOR'
-MERGE (n:ACTOR {name: 'Apple Account'}) SET n.id = 'Apple_Account_ACTOR'
-MERGE (n:ACTOR {name: 'E. Fonts'}) SET n.id = 'E._Fonts_ACTOR'
-MERGE (n:ACTOR {name: 'the 
-Apple Software'}) SET n.id = 'the_
+        MERGE (a)-[:ownership]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:licensed_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:produces]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:produced_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:runs_on]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:supported_on]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:branded_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'License_ACTOR' AND b.id = 'the_
 Apple_Software_ACTOR'
-MERGE (n:EVENT {name: 'the Font Book/Preview/Show Font Info'}) SET n.id = 'the_Font_Book/Preview/Show_Font_Info_EVENT'
-MERGE (n:ACTOR {name: 'F. Voices'}) SET n.id = 'F._Voices_ACTOR'
-MERGE (n:ACTOR {name: 'Live Captions'}) SET n.id = 'Live_Captions_ACTOR'
-MERGE (n:ACT {name: 'System Voices'}) SET n.id = 'System_Voices_ACT'
-MERGE (n:ACTOR {name: 'the Live 
-Captions'}) SET n.id = 'the_Live_
-Captions_ACTOR'
-MERGE (n:FACT {name: 'FaceTime'}) SET n.id = 'FaceTime_FACT'
-MERGE (n:ACTOR {name: 'Personal Voice'}) SET n.id = 'Personal_Voice_ACTOR'
-MERGE (n:FACT {name: 'System Voices'}) SET n.id = 'System_Voices_FACT'
-MERGE (n:ACTOR {name: 'the System 
-Voices, Live Captions or'}) SET n.id = 'the_System_
-Voices,_Live_Captions_or_ACTOR'
-MERGE (n:FACT {name: 'non-proﬁt'}) SET n.id = 'non-proﬁt_FACT'
-MERGE (n:ACTOR {name: 'G. Photos App Features and Support'}) SET n.id = 'G._Photos_App_Features_and_Support_ACTOR'
-MERGE (n:ACT {name: 'Photos App'}) SET n.id = 'Photos_App_ACT'
-MERGE (n:ACTOR {name: 'Digital Materials”'}) SET n.id = 'Digital_Materials”_ACTOR'
-MERGE (n:ACTOR {name: 'Digital Materials'}) SET n.id = 'Digital_Materials_ACTOR'
-MERGE (n:ACTOR {name: 'H. Content Caching Features'}) SET n.id = 'H._Content_Caching_Features_ACTOR'
-MERGE (n:DUTY {name: 'the Mac App Store'}) SET n.id = 'the_Mac_App_Store_DUTY'
-MERGE (n:ACTOR {name: 'Apple Eligible Content'}) SET n.id = 'Apple_Eligible_Content_ACTOR'
-MERGE (n:DUTY {name: 'the Content Caching Features of'}) SET n.id = 'the_Content_Caching_Features_of_DUTY'
-MERGE (n:ACTOR {name: 'Caching Enabled Mac'}) SET n.id = 'Caching_Enabled_Mac_ACTOR'
-MERGE (n:DUTY {name: 'the Content Caching Features of the Apple Software'}) SET n.id = 'the_Content_Caching_Features_of_the_Apple_Software_DUTY'
-MERGE (n:DUTY {name: 'The Content Caching Features of'}) SET n.id = 'The_Content_Caching_Features_of_DUTY'
-MERGE (n:ACTOR {name: 'the Apple Eligible Content'}) SET n.id = 'the_Apple_Eligible_Content_ACTOR'
-MERGE (n:DUTY {name: 'the Apple Media Services Terms and Conditions'}) SET n.id = 'the_Apple_Media_Services_Terms_and_Conditions_DUTY'
-MERGE (n:DUTY {name: 'the iCloud Terms and Conditions'}) SET n.id = 'the_iCloud_Terms_and_Conditions_DUTY'
-MERGE (n:DUTY {name: 'the iTunes U Software License Agreement'}) SET n.id = 'the_iTunes_U_Software_License_Agreement_DUTY'
-MERGE (n:DUTY {name: 'Apple Software License Agreements'}) SET n.id = 'Apple_Software_License_Agreements_DUTY'
-MERGE (n:FACT {name: 'https://www.apple.com/legal/sla/.'}) SET n.id = 'https://www.apple.com/legal/sla/._FACT'
-MERGE (n:DUTY {name: 'the Content Caching Features'}) SET n.id = 'the_Content_Caching_Features_DUTY'
-MERGE (n:ACTOR {name: 'Apple Eligible 
-Content'}) SET n.id = 'Apple_Eligible_
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_
+Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:includes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'F._Voices_ACTOR' AND b.id = 'Live_Captions_ACTOR'
+        MERGE (a)-[:affiliated_with]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'FaceTime_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Personal_Voice_ACTOR' AND b.id = 'Personal_Voice_ACTOR'
+        MERGE (a)-[:is_a]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'G._Photos_App_Features_and_Support_ACTOR' AND b.id = 'G._Photos_App_Features_and_Support_ACTOR'
+        MERGE (a)-[:supports]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:downloads]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:runs]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:runs]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'The_Content_Caching_Features_of_the_Apple_Software_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:delivers]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Eligible_Content_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:is_a_type_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Eligible_Content_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:is_a_type_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Caching_Enabled_Mac_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:facilitates]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_License_Agreements_DUTY' AND b.id = 'https://www.apple.com/legal/sla/._FACT'
+        MERGE (a)-[:authorizes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Content_Caching_Features_ACTOR' AND b.id = 'Apple_Eligible_
 Content_ACTOR'
-MERGE (n:ACTOR {name: 'IP'}) SET n.id = 'IP_ACTOR'
-MERGE (n:ACTOR {name: 'Caching 
-Enabled Mac'}) SET n.id = 'Caching_
-Enabled_Mac_ACTOR'
-MERGE (n:ACTOR {name: 'Caching Enabled 
-Macs'}) SET n.id = 'Caching_Enabled_
-Macs_ACTOR'
-MERGE (n:ACTOR {name: 'I. Remote Desktop Connections'}) SET n.id = 'I._Remote_Desktop_Connections_ACTOR'
-MERGE (n:ACTOR {name: 'the “Home Mac'}) SET n.id = 'the_“Home_Mac_ACTOR'
-MERGE (n:ACTOR {name: 'the Home Mac'}) SET n.id = 'the_Home_Mac_ACTOR'
-MERGE (n:ACTOR {name: 'Apple 
-Software'}) SET n.id = 'Apple_
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Eligible_
+Content_ACTOR' AND b.id = 'Caching_Enabled_Mac_ACTOR'
+        MERGE (a)-[:stored_on]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Eligible_Content_ACTOR' AND b.id = 'Apple_Software_License_Agreements_DUTY'
+        MERGE (a)-[:governed_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:has_rights_over]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Content_Caching_Features_DUTY' AND b.id = 'the_Content_Caching_Features_DUTY'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_
 Software_ACTOR'
-MERGE (n:SECTION {name: 'Section 2I'}) SET n.id = 'Section_2I_SECTION'
-MERGE (n:ACTOR {name: 'J. Other Use Restrictions'}) SET n.id = 'J._Other_Use_Restrictions_ACTOR'
-MERGE (n:ACTOR {name: 'non-Apple'}) SET n.id = 'non-Apple_ACTOR'
-MERGE (n:ACTOR {name: 'K. Backup Copy'}) SET n.id = 'K._Backup_Copy_ACTOR'
-MERGE (n:DATE {name: 'machine-'}) SET n.id = 'machine-_DATE'
-MERGE (n:ACTOR {name: 'Apple Boot ROM'}) SET n.id = 'Apple_Boot_ROM_ACTOR'
-MERGE (n:ACTOR {name: 'L. Migration of Existing Software'}) SET n.id = 'L._Migration_of_Existing_Software_ACTOR'
-MERGE (n:ACTOR {name: 'this Apple Software'}) SET n.id = 'this_Apple_Software_ACTOR'
-MERGE (n:ACTOR {name: 'M. Open Source'}) SET n.id = 'M._Open_Source_ACTOR'
-MERGE (n:ACT {name: 'Open Source'}) SET n.id = 'Open_Source_ACT'
-MERGE (n:EVENT {name: 'the “Open-Sourced Components'}) SET n.id = 'the_“Open-Sourced_Components_EVENT'
-MERGE (n:ACTOR {name: 'these Open-Sourced Components'}) SET n.id = 'these_Open-Sourced_Components_ACTOR'
-MERGE (n:ACTOR {name: 'the Open-Sourced Components'}) SET n.id = 'the_Open-Sourced_Components_ACTOR'
-MERGE (n:ACTOR {name: 'N. No Reverse Engineering'}) SET n.id = 'N._No_Reverse_Engineering_ACTOR'
-MERGE (n:ACTOR {name: 'the Usage Rules'}) SET n.id = 'the_Usage_Rules_ACTOR'
-MERGE (n:ACTOR {name: 'Open-Sourced Components'}) SET n.id = 'Open-Sourced_Components_ACTOR'
-MERGE (n:ACTOR {name: 'the Apple Software and Services'}) SET n.id = 'the_Apple_Software_and_Services_ACTOR'
-MERGE (n:ACTOR {name: 'P. Third Party Software'}) SET n.id = 'P._Third_Party_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Q. Apple Software Changes'}) SET n.id = 'Q._Apple_Software_Changes_ACTOR'
-MERGE (n:ACTOR {name: 'The Apple Software'}) SET n.id = 'The_Apple_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Apple for Apple Software 
-Changes'}) SET n.id = 'Apple_for_Apple_Software_
-Changes_ACTOR'
-MERGE (n:ACTOR {name: 'Rapid Security'}) SET n.id = 'Rapid_Security_ACTOR'
-MERGE (n:ACTOR {name: 'System Settings > Software Update'}) SET n.id = 'System_Settings_>_Software_Update_ACTOR'
-MERGE (n:ACTOR {name: 'Memoji'}) SET n.id = 'Memoji_ACTOR'
-MERGE (n:ACT {name: 'System Characters'}) SET n.id = 'System_Characters_ACT'
-MERGE (n:ACT {name: 'Lessee'}) SET n.id = 'Lessee_ACT'
-MERGE (n:ACTOR {name: 'Permitted 
-Developer Services'}) SET n.id = 'Permitted_
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_
+Software_ACTOR' AND b.id = 'the_Apple_Eligible_Content_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_
+Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Eligible_Content_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Eligible_Content_DUTY' AND b.id = 'the_Content_Caching_Features_DUTY'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:license_for]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:runs]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_“Home_Mac_ACTOR'
+        MERGE (a)-[:branded_as]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_“Home_Mac_ACTOR'
+        MERGE (a)-[:software_for]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:is_related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Home_Mac_ACTOR' AND b.id = 'the_Home_Mac_ACTOR'
+        MERGE (a)-[:is_related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:is_related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Section_2I_ACTOR' AND b.id = 'Section_3_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Section_2I_ACTOR'
+        MERGE (a)-[:licensed_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Section_3_ACTOR'
+        MERGE (a)-[:licensed_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'License_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:prohibits]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'non-Apple_ACTOR'
+        MERGE (a)-[:brand_association]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_DATE' AND b.id = 'Apple_DATE'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_DATE' AND b.id = 'Apple_DATE'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'one_DATE' AND b.id = 'machine-_DATE'
+        MERGE (a)-[:time_related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:transfers_software_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'this_Apple_Software_NUMBER' AND b.id = 'Apple_
+Software_NUMBER'
+        MERGE (a)-[:is_compatible_with]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_
+Software_NUMBER' AND b.id = 'this_Apple_Software_NUMBER'
+        MERGE (a)-[:is_compatible_with]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'third_NUMBER' AND b.id = 'this_Apple_Software_NUMBER'
+        MERGE (a)-[:affects]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'third_NUMBER' AND b.id = 'Apple_
+Software_NUMBER'
+        MERGE (a)-[:affects]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_EVENT' AND b.id = 'the_Apple_Software_EVENT'
+        MERGE (a)-[:includes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_EVENT' AND b.id = 'Open_Source_EVENT'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_EVENT' AND b.id = 'the_“Open-Sourced_Components_EVENT'
+        MERGE (a)-[:offers]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_ACTOR'
+        MERGE (a)-[:modifies]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:modification_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:part_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Open-Sourced_Components_ACTOR'
+        MERGE (a)-[:includes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = '6_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:refers_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = '6_ACTOR' AND b.id = 'the_Apple_Software_and_Services_ACTOR'
+        MERGE (a)-[:refers_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_NUMBER' AND b.id = 'Apple_Software_NUMBER'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_NUMBER' AND b.id = 'the_Apple_Software_NUMBER'
+        MERGE (a)-[:is_part_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'The_Apple_Software_ACTOR' AND b.id = 'Apple_for_Apple_Software_ACTOR'
+        MERGE (a)-[:checks_with]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:is_a_subsidiary_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_Changes_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_Changes_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:is_a_product_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'Permitted_
 Developer_Services_ACTOR'
-MERGE (n:ACTOR {name: 'Lessee'}) SET n.id = 'Lessee_ACTOR'
-MERGE (n:FACT {name: '24) consecutive hours'}) SET n.id = '24)_consecutive_hours_FACT'
-MERGE (n:ACT {name: 'Lessor'}) SET n.id = 'Lessor_ACT'
-MERGE (n:ACTOR {name: 'Xcode'}) SET n.id = 'Xcode_ACTOR'
-MERGE (n:ACTOR {name: 'Permitted Developer Services'}) SET n.id = 'Permitted_Developer_Services_ACTOR'
-MERGE (n:ACTOR {name: 'B. Subleasing'}) SET n.id = 'B._Subleasing_ACTOR'
-MERGE (n:ACTOR {name: 'C. Enforcement'}) SET n.id = 'C._Enforcement_ACTOR'
-MERGE (n:ACTOR {name: 'E. System Conﬁguration'}) SET n.id = 'E._System_Conﬁguration_ACTOR'
-MERGE (n:ACTOR {name: 'Lessor'}) SET n.id = 'Lessor_ACTOR'
-MERGE (n:ACTOR {name: 'Location Services'}) SET n.id = 'Location_Services_ACTOR'
-MERGE (n:SECTION {name: 'Section 2M'}) SET n.id = 'Section_2M_SECTION'
-MERGE (n:ACTOR {name: 'D. Apple'}) SET n.id = 'D._Apple_ACTOR'
-MERGE (n:ACTOR {name: 'Privacy Policy'}) SET n.id = 'Privacy_Policy_ACTOR'
-MERGE (n:ACTOR {name: 'Apple Software, Services'}) SET n.id = 'Apple_Software,_Services_ACTOR'
-MERGE (n:ACTOR {name: 'Third Party Materials'}) SET n.id = 'Third_Party_Materials_ACTOR'
-MERGE (n:ACTOR {name: 'iTunes Store'}) SET n.id = 'iTunes_Store_ACTOR'
-MERGE (n:ACTOR {name: 'Apple 
-Books, Game Center'}) SET n.id = 'Apple_
-Books,_Game_Center_ACTOR'
-MERGE (n:ACTOR {name: 'iCloud'}) SET n.id = 'iCloud_ACTOR'
-MERGE (n:ACTOR {name: 'an Apple Account'}) SET n.id = 'an_Apple_Account_ACTOR'
-MERGE (n:ACTOR {name: 'Apple 
-Services'}) SET n.id = 'Apple_
-Services_ACTOR'
-MERGE (n:ACTOR {name: 'Apple Media Services'}) SET n.id = 'Apple_Media_Services_ACTOR'
-MERGE (n:FACT {name: 'https://www.apple.com/legal/internet-services/itunes/.'}) SET n.id = 'https://www.apple.com/legal/internet-services/itunes/._FACT'
-MERGE (n:ACT {name: 'Shared Albums'}) SET n.id = 'Shared_Albums_ACT'
-MERGE (n:ACT {name: 'Find My'}) SET n.id = 'Find_My_ACT'
-MERGE (n:ACTOR {name: 'F. Certain Apple Software and Services'}) SET n.id = 'F._Certain_Apple_Software_and_Services_ACTOR'
-MERGE (n:ACTOR {name: 'Party Materials'}) SET n.id = 'Party_Materials_ACTOR'
-MERGE (n:ACTOR {name: 'party Services'}) SET n.id = 'party_Services_ACTOR'
-MERGE (n:ACTOR {name: 'G. Neither Apple'}) SET n.id = 'G._Neither_Apple_ACTOR'
-MERGE (n:ACTOR {name: 'Apple Software and Services'}) SET n.id = 'Apple_Software_and_Services_ACTOR'
-MERGE (n:ACTOR {name: 'the Apple 
-Software and Services'}) SET n.id = 'the_Apple_
-Software_and_Services_ACTOR'
-MERGE (n:ACTOR {name: 'Apple Maps'}) SET n.id = 'Apple_Maps_ACTOR'
-MERGE (n:ACTOR {name: 'Maps'}) SET n.id = 'Maps_ACTOR'
-MERGE (n:ACTOR {name: 'I. Certain Apple Software, Services'}) SET n.id = 'I._Certain_Apple_Software,_Services_ACTOR'
-MERGE (n:DATE {name: '6'}) SET n.id = '6_DATE'
-MERGE (n:DATE {name: '7'}) SET n.id = '7_DATE'
-MERGE (n:DATE {name: '8'}) SET n.id = '8_DATE'
-MERGE (n:DATE {name: '9'}) SET n.id = '9_DATE'
-MERGE (n:DATE {name: '11'}) SET n.id = '11_DATE'
-MERGE (n:DATE {name: '12'}) SET n.id = '12_DATE'
-MERGE (n:FACT {name: 'Australia'}) SET n.id = 'Australia_FACT'
-MERGE (n:ACTOR {name: 'THE APPLE SOFTWARE'}) SET n.id = 'THE_APPLE_SOFTWARE_ACTOR'
-MERGE (n:ACTOR {name: 'THE APPLE SOFTWARE AND SERVICES'}) SET n.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_ACTOR'
-MERGE (n:ACTOR {name: 'IMPLIED'}) SET n.id = 'IMPLIED_ACTOR'
-MERGE (n:EVENT {name: 'OPERATION'}) SET n.id = 'OPERATION_EVENT'
-MERGE (n:ACTOR {name: 'THE APPLE SOFTWARE OR'}) SET n.id = 'THE_APPLE_SOFTWARE_OR_ACTOR'
-MERGE (n:ACTOR {name: 'APPLICATIONS'}) SET n.id = 'APPLICATIONS_ACTOR'
-MERGE (n:ACTOR {name: 'USABILITY OF THIRD PARTY SOFTWARE'}) SET n.id = 'USABILITY_OF_THIRD_PARTY_SOFTWARE_ACTOR'
-MERGE (n:ACTOR {name: 'CONTENT'}) SET n.id = 'CONTENT_ACTOR'
-MERGE (n:EVENT {name: 'OPERATION OF NUCLEAR FACILITIES'}) SET n.id = 'OPERATION_OF_NUCLEAR_FACILITIES_EVENT'
-MERGE (n:ACTOR {name: 'APPLE SOFTWARE OR'}) SET n.id = 'APPLE_SOFTWARE_OR_ACTOR'
-MERGE (n:DATE {name: 'MAY'}) SET n.id = 'MAY_DATE'
-MERGE (n:FACT {name: 'JAPAN'}) SET n.id = 'JAPAN_FACT'
-MERGE (n:FACT {name: 'United States'}) SET n.id = 'United_States_FACT'
-MERGE (n:FACT {name: 'U.S.'}) SET n.id = 'U.S._FACT'
-MERGE (n:ACTOR {name: 'the U.S. Treasury Department'}) SET n.id = 'the_U.S._Treasury_Department_ACTOR'
-MERGE (n:ACTOR {name: 'the U.S. Department of Commerce Denied Person’s'}) SET n.id = 'the_U.S._Department_of_Commerce_Denied_Person’s_ACTOR'
-MERGE (n:ACTOR {name: 'C.F.R.'}) SET n.id = 'C.F.R._ACTOR'
-MERGE (n:ACTOR {name: 'Commercial Computer Software'}) SET n.id = 'Commercial_Computer_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Commercial Computer Software Documentation'}) SET n.id = 'Commercial_Computer_Software_Documentation_ACTOR'
-MERGE (n:DATE {name: '227.7202-4'}) SET n.id = '227.7202-4_DATE'
-MERGE (n:ACTOR {name: 'the Commercial Computer Software'}) SET n.id = 'the_Commercial_Computer_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Commercial Computer 
-Software Documentation'}) SET n.id = 'Commercial_Computer_
-Software_Documentation_ACTOR'
-MERGE (n:ACTOR {name: 'U.S. Government'}) SET n.id = 'U.S._Government_ACTOR'
-MERGE (n:FACT {name: 'the United States'}) SET n.id = 'the_United_States_FACT'
-MERGE (n:ACTOR {name: 'Law'}) SET n.id = 'Law_ACTOR'
-MERGE (n:ACTOR {name: 'Severability'}) SET n.id = 'Severability_ACTOR'
-MERGE (n:ACTOR {name: 'the State of California'}) SET n.id = 'the_State_of_California_ACTOR'
-MERGE (n:ACTOR {name: 'the United Nations Convention on Contracts for the International Sale of Goods'}) SET n.id = 'the_United_Nations_Convention_on_Contracts_for_the_International_Sale_of_Goods_ACTOR'
-MERGE (n:FACT {name: 'the United Kingdom'}) SET n.id = 'the_United_Kingdom_FACT'
-MERGE (n:ACT {name: 'Governing Language'}) SET n.id = 'Governing_Language_ACT'
-MERGE (n:FACT {name: 'English'}) SET n.id = 'English_FACT'
-MERGE (n:ACTOR {name: 'A. Portions of the Apple Software'}) SET n.id = 'A._Portions_of_the_Apple_Software_ACTOR'
-MERGE (n:ACTOR {name: 'the Google Safe Browsing Service'}) SET n.id = 'the_Google_Safe_Browsing_Service_ACTOR'
-MERGE (n:DUTY {name: 'the Google Terms of Service'}) SET n.id = 'the_Google_Terms_of_Service_DUTY'
-MERGE (n:ACTOR {name: 'Google'}) SET n.id = 'Google_ACTOR'
-MERGE (n:ACTOR {name: 'GNU'}) SET n.id = 'GNU_ACTOR'
-MERGE (n:ACTOR {name: 'Lesser General Public License'}) SET n.id = 'Lesser_General_Public_License_ACTOR'
-MERGE (n:ACTOR {name: 'LGPL'}) SET n.id = 'LGPL_ACTOR'
-MERGE (n:ACTOR {name: 'WARRANTY'}) SET n.id = 'WARRANTY_ACTOR'
-MERGE (n:ACTOR {name: 'GPL'}) SET n.id = 'GPL_ACTOR'
-MERGE (n:ACTOR {name: 'C. Use of MPEG-4'}) SET n.id = 'C._Use_of_MPEG-4_ACTOR'
-MERGE (n:ACTOR {name: 'the MPEG-4 Systems Patent Portfolio License'}) SET n.id = 'the_MPEG-4_Systems_Patent_Portfolio_License_ACTOR'
-MERGE (n:ACTOR {name: 'the MPEG-4 Systems Standard'}) SET n.id = 'the_MPEG-4_Systems_Standard_ACTOR'
-MERGE (n:ACTOR {name: 'MPEG LA'}) SET n.id = 'MPEG_LA_ACTOR'
-MERGE (n:FACT {name: 'LLC'}) SET n.id = 'LLC_FACT'
-MERGE (n:ACTOR {name: 'the MPEG-4 Visual Patent Portfolio License'}) SET n.id = 'the_MPEG-4_Visual_Patent_Portfolio_License_ACTOR'
-MERGE (n:ACTOR {name: 'the MPEG-4 Visual Standard'}) SET n.id = 'the_MPEG-4_Visual_Standard_ACTOR'
-MERGE (n:ACTOR {name: 'AVC Notice'}) SET n.id = 'AVC_Notice_ACTOR'
-MERGE (n:ACTOR {name: 'AVC'}) SET n.id = 'AVC_ACTOR'
-MERGE (n:ACTOR {name: 'THE AVC STANDARD'}) SET n.id = 'THE_AVC_STANDARD_ACTOR'
-MERGE (n:ACTOR {name: 'MPEG LA 
-L.L.C.'}) SET n.id = 'MPEG_LA_
-L.L.C._ACTOR'
-MERGE (n:FACT {name: 'HTTPS://WWW.MPEGLA.COM'}) SET n.id = 'HTTPS://WWW.MPEGLA.COM_FACT'
-MERGE (n:ACTOR {name: 'E. AMR Notice'}) SET n.id = 'E._AMR_Notice_ACTOR'
-MERGE (n:ACTOR {name: 'AMR'}) SET n.id = 'AMR_ACTOR'
-MERGE (n:FACT {name: 'Windows'}) SET n.id = 'Windows_FACT'
-MERGE (n:ACTOR {name: 'F. FAA Notice'}) SET n.id = 'F._FAA_Notice_ACTOR'
-MERGE (n:ACTOR {name: 'National Airspace System Status Information'}) SET n.id = 'National_Airspace_System_Status_Information_ACTOR'
-MERGE (n:FACT {name: 'Flight Data'}) SET n.id = 'Flight_Data_FACT'
-MERGE (n:ACTOR {name: 'the Federal Aviation 
-Administration'}) SET n.id = 'the_Federal_Aviation_
-Administration_ACTOR'
-MERGE (n:ACTOR {name: 'Flight Data'}) SET n.id = 'Flight_Data_ACTOR'
-MERGE (n:ACTOR {name: 'FAA'}) SET n.id = 'FAA_ACTOR'
-MERGE (n:ACTOR {name: 'the Flight Data'}) SET n.id = 'the_Flight_Data_ACTOR'
-MERGE (n:ACTOR {name: 'G. Use'}) SET n.id = 'G._Use_ACTOR'
-MERGE (n:ACTOR {name: 'Adobe Color Proﬁles'}) SET n.id = 'Adobe_Color_Proﬁles_ACTOR'
-MERGE (n:ACTOR {name: 'Adobe'}) SET n.id = 'Adobe_ACTOR'
-MERGE (n:ACTOR {name: 'the Color 
-Proﬁles'}) SET n.id = 'the_Color_
-Proﬁles_ACTOR'
-MERGE (n:FACT {name: 'Proﬁles'}) SET n.id = 'Proﬁles_FACT'
-MERGE (n:ACTOR {name: 'The Adobe Color Proﬁle'}) SET n.id = 'The_Adobe_Color_Proﬁle_ACTOR'
-MERGE (n:DUTY {name: 'H. Gracenote® End User License Agreement'}) SET n.id = 'H._Gracenote®_End_User_License_Agreement_DUTY'
-MERGE (n:ACTOR {name: 'Gracenote, Inc.'}) SET n.id = 'Gracenote,_Inc._ACTOR'
-MERGE (n:FACT {name: 'Emeryville'}) SET n.id = 'Emeryville_FACT'
-MERGE (n:FACT {name: 'California'}) SET n.id = 'California_FACT'
-MERGE (n:FACT {name: 'Gracenote'}) SET n.id = 'Gracenote_FACT'
-MERGE (n:ACT {name: 'Gracenote Data'}) SET n.id = 'Gracenote_Data_ACT'
-MERGE (n:ACT {name: 'Gracenote Servers'}) SET n.id = 'Gracenote_Servers_ACT'
-MERGE (n:ACTOR {name: 'Gracenote Data'}) SET n.id = 'Gracenote_Data_ACTOR'
-MERGE (n:ACTOR {name: 'the Gracenote Software'}) SET n.id = 'the_Gracenote_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Gracenote Servers'}) SET n.id = 'Gracenote_Servers_ACTOR'
-MERGE (n:ACTOR {name: 'Gracenote Software'}) SET n.id = 'Gracenote_Software_ACTOR'
-MERGE (n:ACTOR {name: 'THE GRACENOTE SOFTWARE'}) SET n.id = 'THE_GRACENOTE_SOFTWARE_ACTOR'
-MERGE (n:ACTOR {name: 'the Gracenote Data'}) SET n.id = 'the_Gracenote_Data_ACTOR'
-MERGE (n:ACTOR {name: 'the Gracenote Servers'}) SET n.id = 'the_Gracenote_Servers_ACTOR'
-MERGE (n:ACTOR {name: 'the Gracenote Privacy Policy'}) SET n.id = 'the_Gracenote_Privacy_Policy_ACTOR'
-MERGE (n:ACTOR {name: 'The Gracenote Software'}) SET n.id = 'The_Gracenote_Software_ACTOR'
-MERGE (n:ACTOR {name: 'Gracenote'}) SET n.id = 'Gracenote_ACTOR'
-MERGE (n:ACTOR {name: 'Gracenote 
-Data'}) SET n.id = 'Gracenote_
-Data_ACTOR'
-MERGE (n:FACT {name: 'the Gracenote Servers'}) SET n.id = 'the_Gracenote_Servers_FACT'
-MERGE (n:ACTOR {name: 'the Gracenote 
-Servers'}) SET n.id = 'the_Gracenote_
-Servers_ACTOR'
-MERGE (n:ACTOR {name: 'Gracenote 
-Software'}) SET n.id = 'Gracenote_
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Apple_Software_ACTOR'
+        MERGE (a)-[:leases]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Lessee_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:installed_on]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Section_3_SECTION' AND b.id = 'Lessee_ACTOR'
+        MERGE (a)-[:defines]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_
+Software_DUTY' AND b.id = 'Section_3_SECTION'
+        MERGE (a)-[:subleases]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Section_3_ACTOR'
+        MERGE (a)-[:complies_with]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Lessee_ACTOR' AND b.id = 'Section_3_ACTOR'
+        MERGE (a)-[:agrees_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Section_3_ACTOR'
+        MERGE (a)-[:enforces]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_ACTOR' AND b.id = 'Lessee_ACTOR'
+        MERGE (a)-[:used_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:notifies]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Section_2B(iii_SECTION' AND b.id = 'the_Apple_Software_DUTY'
+        MERGE (a)-[:regulates]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_DUTY' AND b.id = 'Lessee_DUTY'
+        MERGE (a)-[:provides_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Lessee_DUTY' AND b.id = 'Apple_Software_DUTY'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Section_2B(iii_SECTION' AND b.id = 'Section_3_SECTION'
+        MERGE (a)-[:references]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Section_3_SECTION' AND b.id = 'the_Apple_Software_DUTY'
+        MERGE (a)-[:applies_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Section_3_SECTION' AND b.id = 'Apple_Software_DUTY'
+        MERGE (a)-[:applies_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:is_not_responsible_for]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:license_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Mac_App_Store_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:source_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:part_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:brand_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:part_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:provides_update]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:branded]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'The_Apple_Software_NUMBER' AND b.id = 'Apple_NUMBER'
+        MERGE (a)-[:enables_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_NUMBER' AND b.id = 'iTunes_Store_NUMBER'
+        MERGE (a)-[:has_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_NUMBER' AND b.id = 'Mac_App_Store_NUMBER'
+        MERGE (a)-[:has_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_NUMBER' AND b.id = 'Apple_
+Books,_Game_Center_NUMBER'
+        MERGE (a)-[:has_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_NUMBER' AND b.id = 'iCloud_NUMBER'
+        MERGE (a)-[:has_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_NUMBER' AND b.id = 'Apple_NUMBER'
+        MERGE (a)-[:has_access_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'iCloud_ACTOR' AND b.id = 'iCloud_ACTOR'
+        MERGE (a)-[:uses]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'F._Certain_Apple_Software_and_Services_NUMBER' AND b.id = 'third_NUMBER'
+        MERGE (a)-[:includes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'F._Certain_Apple_Software_and_Services_NUMBER' AND b.id = 'third_NUMBER'
+        MERGE (a)-[:includes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'party_Services_ACTOR'
+        MERGE (a)-[:does_not_endorse]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Third_Party_Materials_ACTOR'
+        MERGE (a)-[:does_not_endorse]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'G._Neither_Apple_ACTOR' AND b.id = 'Apple_Software_and_Services_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_Maps_ACTOR'
+        MERGE (a)-[:provides_service]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:owned_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_Software_and_Services_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:is_a_type_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software,_Services_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Party_Materials_ACTOR'
+        MERGE (a)-[:involves]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Software_and_Services_ACTOR'
+        MERGE (a)-[:provides]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:cease_use]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Australia_ACTOR' AND b.id = 'License_ACTOR'
+        MERGE (a)-[:affects]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_ACTOR' AND b.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_ACTOR'
+        MERGE (a)-[:disclaims]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'IMPLIED_NUMBER' AND b.id = 'THIRD_NUMBER'
+        MERGE (a)-[:includes]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_ACTOR' AND b.id = 'THE_APPLE_SOFTWARE_OR_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'THE_APPLE_SOFTWARE_AND_SERVICES_ACTOR' AND b.id = 'APPLICATIONS_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_ACTOR'
+        MERGE (a)-[:authorized_representative_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'APPLE_SOFTWARE_OR_ACTOR' AND b.id = 'THIRD_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'APPLE_SOFTWARE_OR_ACTOR' AND b.id = 'APPLICATIONS_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'THIRD_ACTOR' AND b.id = 'APPLICATIONS_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'JAPAN_ACTOR' AND b.id = 'APPLE_ACTOR'
+        MERGE (a)-[:applies_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_ACTOR'
+        MERGE (a)-[:is_a_type_of]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'United_States_ACTOR'
+        MERGE (a)-[:authorized_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'United_States_ACTOR'
+        MERGE (a)-[:obtained_under]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'The_Apple_Software_NUMBER' AND b.id = 'Commercial_Computer_Software_NUMBER'
+        MERGE (a)-[:is_a]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'The_Apple_Software_NUMBER' AND b.id = 'Commercial_Computer_Software_Documentation_NUMBER'
+        MERGE (a)-[:is_a]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = '48_NUMBER' AND b.id = '2.101_NUMBER'
+        MERGE (a)-[:refers_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = '48_NUMBER' AND b.id = '48_NUMBER'
+        MERGE (a)-[:refers_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = '48_NUMBER' AND b.id = '12.212_NUMBER'
+        MERGE (a)-[:refers_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = '48_NUMBER' AND b.id = '227.7202_NUMBER'
+        MERGE (a)-[:refers_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'C.F.R._NUMBER' AND b.id = 'C.F.R._NUMBER'
+        MERGE (a)-[:is_a]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'C.F.R._NUMBER' AND b.id = 'C.F.R._NUMBER'
+        MERGE (a)-[:is_a]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Software_Documentation_ACTOR' AND b.id = 'U.S._Government_ACTOR'
+        MERGE (a)-[:licensed_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'the_Apple_Software_ACTOR'
+        MERGE (a)-[:related_to]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:signed_by]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'GNU_ACTOR'
+        MERGE (a)-[:included_with]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'Lesser_General_Public_License_ACTOR'
+        MERGE (a)-[:licensed_under]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'GPL_ACTOR' AND b.id = 'the_Apple_
 Software_ACTOR'
+<<<<<<< HEAD
 >>>>>>> f4a4989 (final knowledge graph tinkering)
+=======
+<<<<<<< HEAD
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
 MERGE (n:ACTOR {name: 'TITLE'}) SET n.id = 'TITLE_ACTOR'
 MERGE (n:ACTOR {name: 'SERVER'}) SET n.id = 'SERVER_ACTOR'
 MERGE (n:ACTOR {name: 'Yahoo Search Service Restrictions'}) SET n.id = 'Yahoo_Search_Service_Restrictions_ACTOR'
@@ -3815,6 +4420,9 @@ MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR' MERGE (a)-[:`
 MATCH (a), (b) WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_Payments_Services_ACTOR' MERGE (a)-[:`affiliated_with`]->(b)
 >>>>>>> 58cdc82 (final knowledge graph tinkering)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
 =======
         MERGE (a)-[:included_with]->(b)
         
@@ -3836,11 +4444,20 @@ Software_ACTOR'
         
 
         MATCH (a), (b)
+<<<<<<< HEAD
+=======
+        WHERE a.id = 'the_MPEG-4_Visual_Patent_Portfolio_License_ACTOR' AND b.id = 'MPEG_LA_ACTOR'
+        MERGE (a)-[:licensed_by]->(b)
+        
+
+        MATCH (a), (b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         WHERE a.id = 'the_MPEG-4_Visual_Standard_ACTOR' AND b.id = 'MPEG_LA_ACTOR'
         MERGE (a)-[:encoded_by]->(b)
         
 
         MATCH (a), (b)
+<<<<<<< HEAD
         WHERE a.id = 'MPEG_LA_ACTOR' AND b.id = 'the_MPEG-4_Visual_Patent_Portfolio_License_ACTOR'
         MERGE (a)-[:licensed_by]->(b)
         
@@ -3848,6 +4465,15 @@ Software_ACTOR'
         MATCH (a), (b)
         WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'AVC_ACTOR'
         MERGE (a)-[:contains]->(b)
+=======
+        WHERE a.id = 'the_Apple_Software_ACTOR' AND b.id = 'AVC_ACTOR'
+        MERGE (a)-[:contains]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'THE_AVC_STANDARD_ACTOR' AND b.id = 'THE_AVC_STANDARD_ACTOR'
+        MERGE (a)-[:compliance_with]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
@@ -3862,12 +4488,20 @@ Software_ACTOR'
 
         MATCH (a), (b)
         WHERE a.id = 'Apple_ACTOR' AND b.id = 'License_ACTOR'
+<<<<<<< HEAD
         MERGE (a)-[:included_with]->(b)
+=======
+        MERGE (a)-[:uses]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Adobe_ACTOR' AND b.id = 'License_ACTOR'
+<<<<<<< HEAD
         MERGE (a)-[:no_obligation_to_support]->(b)
+=======
+        MERGE (a)-[:obligation]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
@@ -3893,11 +4527,14 @@ Apple_Software_ACTOR' AND b.id = 'Adobe_ACTOR'
         
 
         MATCH (a), (b)
+<<<<<<< HEAD
         WHERE a.id = 'Gracenote_Data_ACT' AND b.id = 'Gracenote_Servers_ACT'
         MERGE (a)-[:stored_in]->(b)
         
 
         MATCH (a), (b)
+=======
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         WHERE a.id = 'THE_GRACENOTE_SOFTWARE_ACTOR' AND b.id = 'THE_GRACENOTE_SOFTWARE_ACTOR'
         MERGE (a)-[:uses]->(b)
         
@@ -3935,222 +4572,398 @@ Software_ACTOR' AND b.id = 'Gracenote_Servers_ACTOR'
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Aruba_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Australia_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Austria_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Barbados_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Belgium_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Bermuda_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Brazil_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Bulgaria_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Canada_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Cayman_Islands_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Chile_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'China_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Hong_Kong_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Taiwan_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Colombia_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Cyprus_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Czech_Republic_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Denmark_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Dominican_Republic_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Ecuador_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'El_Salvador_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Finland_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'France_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Germany_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Greece_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Grenada_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Guatemala_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Hungary_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Iceland_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'India_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Indonesia_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Ireland_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Italy_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Jamaica_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Japan_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Latvia_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Lithuania_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Luxembourg_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Malaysia_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Malta_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Mexico_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'Netherlands_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
+=======
+        MERGE (a)-[:located_in]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
         WHERE a.id = 'Argentina_FACT' AND b.id = 'New_FACT'
+<<<<<<< HEAD
         MERGE (a)-[:is_in]->(b)
         
 
         MATCH (a), (b)
         WHERE a.id = 'License_ACTOR' AND b.id = 'Apple_
 Pay_&_Wallet_ACTOR'
+=======
+        MERGE (a)-[:located_in]->(b)
+        
+
+        MATCH (a), (b)
+        WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR'
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         MERGE (a)-[:governs]->(b)
         
 
@@ -4171,6 +4984,7 @@ Pay_&_Wallet_ACTOR' AND b.id = 'Apple_ACTOR'
         
 
         MATCH (a), (b)
+<<<<<<< HEAD
         WHERE a.id = 'License_ACTOR' AND b.id = 'License_ACTOR'
         MERGE (a)-[:is_part_of]->(b)
         
@@ -4178,6 +4992,10 @@ Pay_&_Wallet_ACTOR' AND b.id = 'Apple_ACTOR'
         MATCH (a), (b)
         WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
         MERGE (a)-[:related_to]->(b)
+=======
+        WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+        MERGE (a)-[:is_provided_by]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
@@ -4213,6 +5031,7 @@ Pay_&_Wallet_ACTOR' AND b.id = 'Apple_ACTOR'
         MATCH (a), (b)
         WHERE a.id = 'Apple_Pay_&_
 Wallet_Terms_DUTY' AND b.id = 'Apple_ACTOR'
+<<<<<<< HEAD
         MERGE (a)-[:uses]->(b)
         
 
@@ -4220,6 +5039,9 @@ Wallet_Terms_DUTY' AND b.id = 'Apple_ACTOR'
         WHERE a.id = 'Apple_Pay_&_
 Wallet_Terms_DUTY' AND b.id = 'Apple_ACTOR'
         MERGE (a)-[:authorized_by]->(b)
+=======
+        MERGE (a)-[:authorized_to_bind]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
@@ -4274,7 +5096,11 @@ Wallet_Terms_DUTY' AND b.id = 'Apple_ACTOR'
 
         MATCH (a), (b)
         WHERE a.id = 'Apple_ACTOR' AND b.id = 'Apple_ACTOR'
+<<<<<<< HEAD
         MERGE (a)-[:affiliation]->(b)
+=======
+        MERGE (a)-[:affiliated_with]->(b)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)
         
 
         MATCH (a), (b)
@@ -4299,8 +5125,14 @@ Wallet_Terms_DUTY' AND b.id = 'Apple_ACTOR'
 
         MATCH (a), (b)
         WHERE a.id = 'APPLE_ACTOR' AND b.id = 'APPLE_PAYMENTS_SERVICES_ACTOR'
+<<<<<<< HEAD
         MERGE (a)-[:related_to]->(b)
         
 >>>>>>> cca7142 (descriptions added per node for summarization)
 =======
 >>>>>>> f4a4989 (final knowledge graph tinkering)
+=======
+        MERGE (a)-[:affiliated_with]->(b)
+        
+>>>>>>> cca7142 (descriptions added per node for summarization)
+>>>>>>> 3e2f682 (descriptions added per node for summarization)

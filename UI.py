@@ -110,34 +110,8 @@ class SimplifyApp:
         download_btn_result.pack(side=tk.LEFT, padx=10)
 
     def process_text(self, text):
-        import json
-        import nbformat
-        from nbconvert.preprocessors import ExecutePreprocessor
-        import os
-
-        # Save text var to file to load in notebook
-        with open('text_var.json', 'w') as f:
-            json.dump({'text_var': text}, f)
-
-        # Open notebook
-        notebook_path = 'KG.ipynb'
-        with open(notebook_path) as f:
-            notebook = nbformat.read(f, as_version=4)
-
-        # Execute notebook
-        ep = ExecutePreprocessor(timeout=1200, kernel_name='python3')
-        ep.preprocess(notebook, {'metadata': {'path': os.getcwd()}})
-        print("notebook executed")
-
-        output = None
-        for cell in notebook.cells:
-            if cell.cell_type == 'code' and 'final_summary' in cell.source:
-                    output = cell.outputs[0]['text']
-
-        # Delete text var file
-        os.remove('text_var.json')
-
-        return output
+        # insert our thing here
+        return text[::-1]
 
     def handle_text_input(self):
         text = self.text_input.get_text()

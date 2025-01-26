@@ -1,0 +1,86 @@
+- **Interference with Apple's Security Mechanisms**
+  - Prohibits circumventing or interfering with Apple's verification, storage, or authentication mechanisms.
+  - Includes digital signing, digital rights management, and other security mechanisms implemented in or by Apple software, services, or technology.
+  - Prohibits enabling others to interfere with these mechanisms.
+
+- **Apple Software Components and Open Source Programs**
+  - Certain components of the Apple Software and third-party open source programs included with the Apple Software have been or may be made available by Apple on its Open Source.
+  - Open-Sourced Components can be accessed via Apple's Open Source website.
+
+- **Key Information**
+  - The AMR encoding and decoding functionality in the product is not licensed for use in cellular communications infrastructure, including base stations.
+  - For Australian consumers, the license does not affect or intend to affect statutory rights under the Australian Consumer Law, including consumer guarantees.
+
+- **Apple Products and Services**
+  - Requires operating software that supports the services, with the latest version recommended and sometimes required.
+  - Requires an Apple Account associated with an iCloud account in good standing with Apple.
+  - Requires internet access or cellular data access, with potential fees.
+
+- **Gracenote Data, Software, and Servers**
+  - Users agree not to use or exploit these resources.
+  - Applicable to Supported Devices and can be accessed via: Settings > General.
+
+- **Liability and Endorsement**
+  - Apple, its officers, affiliates, and subsidiaries do not warrant or endorse and will not assume any liability or responsibility.
+
+- **Apple Software Changes**
+  - Provided by Apple and only supported on Apple-branded hardware that meets specified system requirements.
+  - Not supported if changes are accompanied by Apple Pay or Wallet.
+
+- **Restrictions**
+  - Except as permitted in Section 3, D. Maps.
+
+- **Third Party Decisions**
+  - Decisions made by an issuer, merchant, or other third party in connection with a Supported Card.
+
+- **Rewards and Stored Value**
+  - Accrual or redemption of rewards or stored value in connection with your account.
+  - Discusses the funding or reloading of prepaid Supported Cards.
+
+- **License Terms and Conditions**
+  - The license allows for remote connection from another computer or electronic device to an Apple-branded computer running the Apple Software.
+
+- **Apple Eligible Content and iCloud Service**
+  - Apple Eligible Content can be cached on a Mac Computer through the Screen Sharing feature or any other means.
+  - The type of Apple Eligible Content being cached is governed by specific license terms.
+  - To complete a purchase on a Mac Computer, a Supported Card associated with an active iCloud account is required.
+  - The use of iCloud and its features is subject to the latest terms and conditions of the iCloud service.
+
+- **News App Content**
+  - The Adobe Color Profile software that comes with Apple Software can also be downloaded from Adobe's website.
+
+- **Device Connection Limitations**
+  - Only one device can remotely connect at any given time to control the graphical desktop session of the Apple Software running and displayed on the Home Mac.
+
+- **Home Mac Usage**
+  - A reasonable number of devices can remotely connect simultaneously to observe the same graphical desktop session of the Apple Software running on the Home Mac.
+  - The connected devices should not control the Apple Software.
+
+- **Apple Software Package**
+  - Apple provides access to certain third-party software as part of the Apple Software package.
+  - This access may also be provided as an upgrade, update, or supplement to the Apple Software.
+
+- **Potential Losses and Damages**
+  - Includes loss of profits, corruption or loss of data, failure to transmit or receive any data or information, business interruption, and other commercial damages or losses.
+
+- **Causes of Potential Losses and Damages**
+  - Use or inability to use the Apple software or services.
+  - Use or inability to use any third party software, applications, or services.
+
+- **Apple's Obligations**
+  - Apple is not obligated to provide updates, maintenance, warranty, technical or other support, or services for modified Apple Software.
+
+- **Restrictions on Apple Software**
+  - No portion of the Apple Software can be modified.
+
+- **Reproduction of Services**
+  - Services can be reproduced in any form or by any means.
+
+- **Content Management**
+  - Users have the option to remove cached Apple Eligible Content and can disable the Content Caching Features at any time.
+
+- **Proprietary Notices**
+  - Users agree not to remove, obscure, or alter any proprietary notices, including trademark and copyright notices affixed to or contained within the Apple Software.
+
+- **Automatic Download**
+  - If services are accessed through an automatic download, it is subject to the terms and conditions of the License

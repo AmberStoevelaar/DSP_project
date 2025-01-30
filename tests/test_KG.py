@@ -19,10 +19,10 @@ from KG import (
 class TestSummarizeSection(unittest.TestCase):
     """
     Testing summarize_section function based on four instances:
-        1: Empty input: warning message stating no summary provided in the function is returned
-        2: Single sentence: same sentence is returned
-        3: Multiple sentences: the resulting output would be part of the input
-        4: Invalid input: warning message stating no summary provided in the function is returned
+        1: Test with empty input: warning message stating no summary provided in the function is returned
+        2: Test with a single sentence: same sentence is returned
+        3: Test with multiple sentences: the resulting output would be part of the input
+        4: Test with invalid input: warning message stating no summary provided in the function is returned
     """
 
     def test_empty_text(self):
@@ -76,12 +76,17 @@ class TestClassifyAndGenerateQueries(unittest.TestCase):
         self.assertTrue(any("MERGE" in query for query in queries))
         mock_file.assert_called_once_with("queries.txt", "w")
 
-
+# Final summarisation in bullet points
 class TestSummarizeInPoints(unittest.TestCase):
     """
-
+    Test the final summarization done with LLMChain done by obtaining the nodes
+    descriptions and the final summary of them. Several cases are tested:
+        1. Test with an empty list of summaries
+        2. Test with a single sentence
+        3. Test with a portion of a PDF
     """
 
+    # Helper function to extract some section of the PDF employed in this project
     def extract_text_from_pdf(self, pdf_path):
         """Extracts text from the first few pages of a PDF file."""
         loader = PyPDFLoader(pdf_path)

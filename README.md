@@ -51,3 +51,33 @@ By turning T&C's into user-friendly format, we aim to shorten the big percentage
 
 ##### RAG (Retrieval-Augmented Generation):
 - Combines retrieved document content with GPT-powered generation for refined results.
+
+## Setup
+##### Requirements
+- Python 3.9
+- Required Python libraries (install via the provided jupyter notebook, remember to un-comment them when running it):
+  - langchain
+  - spacy
+  - PyMuPDF
+  - numpy
+  - sklearn
+  - openai
+##### Environment Variables
+Create a .env file to store your API keys and your Neo4j password, username and url:
+```
+OPENAI_API_KEY=your_openai_api_key
+NEO4J_URI=your_neo4j_url
+NEO4J_USERNAME=your_neo4j_username
+NEO4J_PASSWORD=your_neo4j_password
+```
+##### Run tests
+In case you want to run the defined unit tests you can do it simply by executing:
+```
+python tests/test_KG.py
+```
+Remember to have all the necessary Python libraries installed before this step!
+
+
+### Contact
+For questions or contributions, please contact the project collaborators!
+We are more than happy to answer any doubts or listen to constructive feedback! 😊

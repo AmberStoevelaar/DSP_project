@@ -77,6 +77,14 @@ python tests/test_KG.py
 ```
 Remember to have all the necessary Python libraries installed before this step!
 
+##### Run UI
+In order to launch the UI, simply execute the following command from the project folder:
+
+```
+python functionalUI.py
+```
+Remember to have all the necessary Python libraries installed and the environment variables file has to be set before this step!
+
 
 ### Contact
 For questions or contributions, please contact the project collaborators!

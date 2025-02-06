@@ -7,8 +7,6 @@ By turning T&C's into user-friendly format, we aim to shorten the big percentage
 ## Repository Structure
 ### Main Directories and Files
 #### Root Files
-- **UI.py**: Implements the user interface for interacting with the project components.
-- **functionalUI.py**: Provides functional implementations for the UI.
 - **config.cfg**: Contains configuration settings for the implementation of Spacy-LLM in the NER.
 - **KG.ipynb**: Jupyter notebook containing all the steps taken for this project to come to light
 
@@ -19,6 +17,7 @@ By turning T&C's into user-friendly format, we aim to shorten the big percentage
  - **Simplified_T&C's**: The resulting simplified T&C documents from our proposed approach.
  - **TCs**: Original T&C documents for processing
  - **tests**: Contains unit tests for validating various components of the project. Test cases for functionality, including summarization, knowledge graph, and query generation.
+ -  - **ui_demo**: Contains the User Interface with the demo employed for it's functioning.
 
 ## Key Objectives
 ##### Simplification:
